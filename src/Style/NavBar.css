@@ -1,7 +1,10 @@
 #companyName {
-  padding-right: 35%;
-  padding-left: 5%;
+  padding-right: 25%;
   font-style: italic;
+}
+
+#otherButtons a {
+  margin: 25px;
 }
 
 a {
