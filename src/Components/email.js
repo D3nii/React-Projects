@@ -33,16 +33,18 @@ function Email() {
         <h1>Request A demo!!</h1>
         <h4>
           To make sure we're a good fit for your project, we can start on a
-          small batch of your annotations for free. No hassle and no commitment.
+          small batch of your annotations for<strong>free</strong> . No hassle
+          and no commitment.
         </h4>
       </div>
       <form onSubmit={sendEmail}>
-        <label>Full Name:</label>
-        <input className="Input1" placeholder="Name" name="name" required />
-        <label>Email:</label>
-        <input className="Input2" placeholder="Email" name="email" required />
-        <label>Your Message:</label>
-        <input className="Input3" placeholder="Message" name="message" />
+        <div id="Left">
+          <input className="Input1" placeholder="Name" name="name" required />
+          <input className="Input2" placeholder="Email" name="email" required />
+        </div>
+        <div id="Right">
+          <input className="Input3" placeholder="Message" name="message" />
+        </div>
         <input className="Input4" type="submit" />
       </form>
     </div>
