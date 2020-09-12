@@ -1,41 +1,64 @@
 * {
   background-color: black;
-  margin-left: 10px;
+  font-family: "Righteous", cursive;
 }
-.Slider input {
+.App input {
   color: white;
   border: 1 px solid;
   border-color: white;
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 70px;
   border-radius: 7px;
+  margin-top: 90px;
 }
-
 label {
   color: white;
   margin-bottom: 10px;
 }
-
+h1,
+h4 {
+  color: white;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
 .Input1 {
-  width: 50%;
+  width: 30%;
   height: 50px;
+  top: 240px;
+  left: 200px;
+}
+.Input1:hover {
+  background-color: black;
 }
 
+.Input2:hover {
+  background-color: black;
+}
+h4 {
+  font-size: 20px;
+}
+strong,
+h1 {
+  color: red;
+}
 .Input2 {
-  width: 50%;
+  width: 30%;
   height: 50px;
+  top: 300px;
+  left: 200px;
 }
-
 .Input3 {
-  width: 80%;
-  height: 70px;
+  width: 40%;
+  height: 180px;
+  left: 700px;
+  top: 200px;
 }
-
 .Input4 {
-  width: 10%;
+  width: 100px;
   align-items: center;
   height: 30px;
-  margin-top: 20px;
+  top: 500px;
+  left: 600px;
+  padding-top: 5px;
 }
