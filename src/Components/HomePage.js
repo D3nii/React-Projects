@@ -1,17 +1,38 @@
 import React from "react";
 
-import Slider from "./slider";
 import "../Style/HomePage.css";
-import "./slider";
 
-let el = "block1";
+var l = "back1";
 
-function Semantic() {
+const lol = (we) => {
+  let x = document.getElementById(l);
+  x.style.width = we + "px";
+};
+
+const lol2 = (e) => {
+  lol(e.target.value);
+};
+
+const first = () => {
+  l = "back1";
+  document.getElementById("img1").style.display = "block";
+  document.getElementById("img3").style.display = "none";
+  document.getElementById("img2").style.display = "none";
+};
+
+const second = () => {
+  l = "back2";
   document.getElementById("img1").style.display = "none";
+  document.getElementById("img3").style.display = "none";
+  document.getElementById("img2").style.display = "block";
+};
 
+const third = () => {
+  l = "back3";
+  document.getElementById("img1").style.display = "none";
+  document.getElementById("img2").style.display = "none";
   document.getElementById("img3").style.display = "block";
-  el = "back3";
-}
+};
 
 class HomePage extends React.Component {
   constructor() {
@@ -30,15 +51,40 @@ class HomePage extends React.Component {
           <div className="heading">
             All in One{" "}
             <span className="colorRed">Image Recognition Solutions</span> for
-            your Business!
+            your Business.
           </div>
 
           <span id="slider">
-            <Slider pic={el} />
+            <div className="images">
+              <div className="slidecontainer">
+                <div id="img1">
+                  <div id="back1"></div>
+                  <div id="front1"></div>
+                </div>
+
+                <div id="img2">
+                  <div id="back2"></div>
+                  <div id="front2"></div>
+                </div>
+
+                <div id="img3">
+                  <div id="back3"></div>
+                  <div id="front3"></div>
+                </div>
+
+                <input
+                  type="range"
+                  min="0"
+                  max="500"
+                  className="slider"
+                  onChange={lol2}
+                />
+              </div>
+            </div>
           </span>
 
           <span id="services">
-            <a onClick={Semantic}>
+            <a className="spe" onClick={first}>
               <div className="sliderOption">
                 <span className="littleHeading">Semantic Segmentation</span>{" "}
                 <br />
@@ -50,7 +96,7 @@ class HomePage extends React.Component {
               </div>
             </a>
 
-            <a>
+            <a className="spe" onClick={second}>
               <div className="sliderOption">
                 <span className="littleHeading">Instance Segmentation</span>{" "}
                 <br />
@@ -62,7 +108,7 @@ class HomePage extends React.Component {
               </div>
             </a>
 
-            <a>
+            <a className="spe" onClick={third}>
               <div className="sliderOption">
                 <span className="littleHeading">Bounding Boxes</span>
                 <br />
