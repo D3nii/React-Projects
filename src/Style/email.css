@@ -1,0 +1,41 @@
+* {
+  background-color: black;
+  margin-left: 10px;
+}
+.Slider input {
+  color: white;
+  border: 1 px solid;
+  border-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 7px;
+}
+
+label {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.Input1 {
+  width: 50%;
+  height: 50px;
+}
+
+.Input2 {
+  width: 50%;
+  height: 50px;
+}
+
+.Input3 {
+  width: 80%;
+  height: 70px;
+}
+
+.Input4 {
+  width: 10%;
+  align-items: center;
+  height: 30px;
+  margin-top: 20px;
+}
