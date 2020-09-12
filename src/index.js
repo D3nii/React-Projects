@@ -1,18 +1,35 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 
 import NavBar from "./Components/NavBar";
 import HomePage from "./Components/HomePage";
 import Footer from "./Components/Footer";
+import Email from "./Components/email";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <NavBar />
-    <HomePage />
-    <Footer />
-  </React.StrictMode>,
+  <Router>
+    <React.StrictMode>
+      <Switch>
+        <Route path="/demo">
+          <NavBar />
+          <Email />
+        </Route>
+
+        <Route path="/Login">
+          <h1>Login Page</h1>
+        </Route>
+
+        <Route path="/">
+          <NavBar />
+          <HomePage />
+          <Footer />
+        </Route>
+      </Switch>
+    </React.StrictMode>
+  </Router>,
   document.getElementById("root")
 );
 
