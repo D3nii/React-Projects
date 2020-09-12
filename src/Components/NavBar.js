@@ -1,5 +1,6 @@
 import React from "react";
 import "../Style/NavBar.css";
+import Email from "./email";
 
 class NavBar extends React.Component {
   constructor() {
@@ -16,7 +17,7 @@ class NavBar extends React.Component {
           <a href="">About us</a>
         </span>
 
-        <button>Request a demo</button>
+        <button onClick={<Email />}>Request a demo</button>
       </div>
     );
   }
