@@ -68,7 +68,6 @@ section {
 }
 
 #slider div {
-  background-color: pink;
   margin-right: 400px;
 }
 
@@ -89,11 +88,14 @@ div .sliderOption {
   border-radius: 40px;
   margin: 10px 0;
   padding: 10px;
+  bottom: 495px;
+  position: relative;
 }
 
 .littleHeading {
   font-size: 30px;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .littleBody {
@@ -103,4 +105,10 @@ div .sliderOption {
 .littleBody,
 .littleHeading {
   background-color: rgb(123, 115, 133);
+}
+
+a :hover span,
+a :hover {
+  background-color: grey !important;
+  cursor: pointer;
 }
