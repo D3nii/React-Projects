@@ -1,10 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
-import Particles from "react-particles-js";
 import NavBar from "./Components/NavBar";
 import HomePage from "./Components/HomePage";
 import Footer from "./Components/Footer";
