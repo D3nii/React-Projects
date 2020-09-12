@@ -1,6 +1,6 @@
 import React from "react";
 import "../Style/NavBar.css";
-import Email from "./email";
+import { Link } from "react-router-dom";
 
 class NavBar extends React.Component {
   constructor() {
@@ -10,14 +10,16 @@ class NavBar extends React.Component {
   render() {
     return (
       <div>
-        <span id="companyName">Masti keriyan?</span>
-
-        <span>
-          <a href="">Our Services</a>
-          <a href="">About us</a>
-        </span>
-
-        <button onClick={<Email />}>Request a demo</button>
+        <Link to="/">
+          <span id="companyName">Masti keriyan?</span>
+        </Link>
+        <Link to="/">
+          <span>Our Services</span>
+          <span>About</span>
+        </Link>
+        <Link to="/demo">
+          <button class="de">Request a demo</button>
+        </Link>
       </div>
     );
   }
