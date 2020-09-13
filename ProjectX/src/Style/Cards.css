@@ -1,0 +1,36 @@
+#card,
+#cheading {
+  background-color: darkred !important;
+  font-size: 40px;
+}
+
+#card {
+  width: 500px;
+  margin: 25px;
+  border-radius: 50px;
+  height: 380px;
+  padding: 30px;
+  box-shadow: -10px 10px 10px 1px #310810;
+  display: inline-block;
+}
+
+#body {
+  background-color: darkred !important;
+  margin: 20px;
+  font-size: 15px;
+  top: 20px;
+  position: relative;
+}
+
+#body ul {
+  margin-top: -40px;
+}
+
+#body ul,
+#body ul li {
+  background-color: darkred !important;
+}
+
+#body li {
+  margin-top: 25px;
+}
