@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.each-slide div {
+  margin-left: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 20px;
+}
+
+svg {
+  margin-top: -1115px;
+  background-color: white;
+}
+
+.images-wrap {
+  max-height: 500px;
+}
