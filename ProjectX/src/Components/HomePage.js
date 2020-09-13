@@ -2,6 +2,8 @@ import React from "react";
 
 import "../Style/HomePage.css";
 
+import Slides from "./Slides";
+
 var l = "back1";
 
 const lol = (we) => {
@@ -61,17 +63,15 @@ class HomePage extends React.Component {
                   <div id="back1"></div>
                   <div id="front1"></div>
                 </div>
-
                 <div id="img2">
                   <div id="back2"></div>
                   <div id="front2"></div>
                 </div>
-
                 <div id="img3">
                   <div id="back3"></div>
                   <div id="front3"></div>
                 </div>
-
+                x
                 <input
                   type="range"
                   min="0"
@@ -122,8 +122,14 @@ class HomePage extends React.Component {
           </span>
         </section>
 
-        <section id="page3">Blocks wala kaam</section>
-        <hr />
+        <section id="page3">
+          <Slides />
+        </section>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </>
     );
   }
