@@ -1,0 +1,215 @@
+* {
+  text-align: center;
+  background-color: black !important;
+}
+
+section {
+  height: 60vh;
+  background-color: rgb(27, 21, 21);
+}
+
+#Main {
+  font-family: "Righteous", cursive;
+  font-size: 40px;
+  max-width: 420px;
+
+  color: #fff;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  margin-bottom: 20px;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+#page1 {
+  margin-top: 20%;
+}
+
+#page2 {
+  margin-top: 20%;
+}
+
+#page3 {
+  margin-top: 20%;
+}
+
+.heading {
+  font-size: 50px;
+  padding-left: 255px;
+  padding-right: 255px;
+  margin-bottom: 60px;
+}
+
+.colorRed {
+  color: red;
+  font-weight: bold;
+}
+
+#slider div {
+  margin-right: 400px;
+}
+
+img {
+  float: left;
+  margin-left: 60px;
+}
+
+#services div {
+  margin-left: 720px;
+  margin-right: 120px;
+  height: 100px;
+}
+
+div .sliderOption {
+  background-color: rgb(123, 115, 133);
+  border: 5px solid whitesmoke;
+  border-radius: 40px;
+  margin: 10px 0;
+  padding: 10px;
+  bottom: 495px;
+  position: relative;
+}
+
+.littleHeading {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.littleBody {
+  color: white;
+}
+
+.littleBody,
+.littleHeading {
+  background-color: rgb(123, 115, 133);
+}
+
+a :hover span {
+  background-color: grey !important;
+  cursor: pointer;
+}
+
+.spe :hover {
+  background-color: grey !important;
+}
+
+/* */
+
+.images {
+  margin-left: 15px;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+#back1 {
+  z-index: 1;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: 500px;
+  background-image: url("../Images/up.jpeg");
+  width: 35pc;
+  height: 35pc;
+}
+
+#front1 {
+  z-index: -1;
+  background-size: 500px;
+  background-image: url("../Images/down.jpeg");
+  background-repeat: no-repeat;
+  width: 35pc;
+  height: 35pc;
+}
+
+#back2 {
+  z-index: 1;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 500px;
+  background-image: url("../Images/up.jpeg");
+  width: 35pc;
+  height: 35pc;
+}
+
+#front2 {
+  z-index: -1;
+  background-size: 500px;
+  background-image: url("../Images/down.jpeg");
+  background-repeat: no-repeat;
+  width: 35pc;
+  height: 35pc;
+  position: relative;
+}
+
+#back3 {
+  z-index: 1;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 500px;
+  background-image: url("../Images/down.jpeg");
+  width: 35pc;
+  height: 35pc;
+}
+
+#front3 {
+  z-index: -1;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-image: url("../Images/up.jpeg");
+  width: 35pc;
+  height: 35pc;
+  position: relative;
+  bottom: 570px;
+}
+
+#slidecontainer {
+  position: relative;
+}
+
+.slider {
+  background-color: whitesmoke;
+  position: absolute;
+  bottom: 220px;
+  margin-left: -50px !important;
+  width: 500px;
+  z-index: 1;
+  text-decoration: none;
+}
+
+#img1 {
+  display: block;
+}
+
+#img2 {
+  display: none;
+}
+
+#img3 {
+  display: none;
+}
