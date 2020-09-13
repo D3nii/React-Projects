@@ -1,0 +1,29 @@
+#companyName {
+  padding-right: 25%;
+  font-style: italic;
+}
+
+#otherButtons a {
+  margin: 25px;
+}
+
+a {
+  text-decoration: none;
+  margin: 0 4px;
+  color: white;
+}
+
+div {
+  padding-top: 10px;
+  background-color: rgb(27, 21, 21);
+  color: white;
+}
+
+#companyName {
+  font-family: "Righteous", cursive;
+  font-size: 20px;
+}
+
+button {
+  color: white;
+}
