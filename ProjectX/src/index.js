@@ -1,13 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./index.css";
 import * as serviceWorker from "./serviceWorker";
+
+import "./index.css";
 
 import NavBar from "./Components/NavBar";
 import HomePage from "./Components/HomePage";
 import Footer from "./Components/Footer";
 import Email from "./Components/email";
+import Services from "./Components/Services";
 
 ReactDOM.render(
   <Router>
@@ -18,8 +20,10 @@ ReactDOM.render(
           <Email />
         </Route>
 
-        <Route path="/Login">
-          <h1>Login Page</h1>
+        <Route path="/services">
+          <NavBar />
+          <Services />
+          <Footer />
         </Route>
 
         <Route path="/">
