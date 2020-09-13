@@ -30,11 +30,13 @@ function Email() {
   return (
     <div className="App">
       <div className="hea">
+        <br />
         <h1>Request A demo!!</h1>
         <h4>
-          To make sure we're a good fit for your project, we can start on a
-          small batch of your annotations for<strong>free</strong> . No hassle
-          and no commitment.
+          To make sure we're a <strong>good fit</strong> for your project, we
+          can <strong>start</strong> on a small batch of your annotations for{" "}
+          <strong>free</strong>. <br />
+          No <strong>hassle</strong> and no <strong>commitment</strong>.
         </h4>
       </div>
       <form onSubmit={sendEmail}>
