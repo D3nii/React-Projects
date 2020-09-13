@@ -13,12 +13,13 @@ class NavBar extends React.Component {
         <Link to="/">
           <span id="companyName">Masti keriyan?</span>
         </Link>
-        <Link to="/">
+        <Link to="/services">
           <span>Our Services</span>
-          <span>About</span>
         </Link>
+        <span>About</span>
+
         <Link to="/demo">
-          <button class="de">Request a demo</button>
+          <button className="de">Request a demo</button>
         </Link>
       </div>
     );
