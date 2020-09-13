@@ -2,6 +2,7 @@
   background-color: black;
   font-family: "Righteous", cursive;
 }
+
 .App input {
   color: white;
   border: 1 px solid;
@@ -12,22 +13,26 @@
   border-radius: 7px;
   margin-top: 90px;
 }
+
 label {
   color: white;
   margin-bottom: 10px;
 }
+
 h1,
 h4 {
   color: white;
   text-align: center;
   letter-spacing: 0.5px;
 }
+
 .Input1 {
   width: 30%;
   height: 50px;
   top: 240px;
   left: 200px;
 }
+
 .Input1:hover {
   background-color: black;
 }
@@ -35,25 +40,33 @@ h4 {
 .Input2:hover {
   background-color: black;
 }
+
 h4 {
   font-size: 20px;
 }
+
 strong,
 h1 {
   color: red;
 }
+
 .Input2 {
   width: 30%;
   height: 50px;
   top: 300px;
   left: 200px;
 }
+
 .Input3 {
   width: 40%;
   height: 180px;
-  left: 700px;
-  top: 200px;
+  margin-left: 600px;
+  bottom: 350px;
+  position: relative;
+  left: 160px;
+  bottom: 370px;
 }
+
 .Input4 {
   width: 100px;
   align-items: center;
@@ -61,4 +74,13 @@ h1 {
   top: 500px;
   left: 600px;
   padding-top: 5px;
+  bottom: 550px;
+  position: absolute;
+  left: 470px;
+}
+
+.Input1,
+.Input2,
+.Input4 {
+  margin: 0 200px;
 }
