@@ -70,6 +70,12 @@ section {
 
 #slider div {
   margin-right: 400px;
+  height: 570px;
+}
+
+#services {
+  bottom: 50px;
+  position: relative;
 }
 
 img {
@@ -133,7 +139,7 @@ a :hover span {
   background-repeat: no-repeat;
   position: absolute;
   background-size: 500px;
-  background-image: url("../Images/up.jpeg");
+  background-image: url("../Images/up1.jpeg");
   width: 35pc;
   height: 35pc;
 }
@@ -141,7 +147,7 @@ a :hover span {
 #front1 {
   z-index: -1;
   background-size: 500px;
-  background-image: url("../Images/down.jpeg");
+  background-image: url("../Images/down1.jpeg");
   background-repeat: no-repeat;
   width: 35pc;
   height: 35pc;
@@ -152,40 +158,41 @@ a :hover span {
   background-repeat: no-repeat;
   position: relative;
   background-size: 500px;
-  background-image: url("../Images/up.jpeg");
+  background-image: url("../Images/up2.jpg");
   width: 35pc;
   height: 35pc;
 }
 
 #front2 {
-  z-index: -1;
+  z-index: 0;
   background-size: 500px;
-  background-image: url("../Images/down.jpeg");
+  background-image: url("../Images/down2.png");
   background-repeat: no-repeat;
   width: 35pc;
   height: 35pc;
   position: relative;
+  bottom: 580px;
 }
 
 #back3 {
   z-index: 1;
   background-repeat: no-repeat;
-  position: relative;
   background-size: 500px;
-  background-image: url("../Images/down.jpeg");
   width: 35pc;
   height: 35pc;
+  position: relative;
+  background-image: url("../Images/up3.jpg");
 }
 
 #front3 {
-  z-index: -1;
+  z-index: 0;
   background-size: 500px;
   background-repeat: no-repeat;
-  background-image: url("../Images/up.jpeg");
+  background-image: url("../Images/down3.png");
   width: 35pc;
   height: 35pc;
   position: relative;
-  bottom: 570px;
+  bottom: 580px;
 }
 
 #slidecontainer {
@@ -212,4 +219,16 @@ a :hover span {
 
 #img3 {
   display: none;
+}
+
+#try {
+  background-color: pink;
+  width: 20px;
+  height: 20px;
+  z-index: 99;
+  background-color: transparent !important;
+  bottom: 280px;
+  position: relative;
+  left: 240px;
+  cursor: pointer;
 }
