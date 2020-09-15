@@ -3,6 +3,7 @@ import React from "react";
 import "../Style/HomePage.css";
 
 import Slides from "./Slides";
+import Bar from "./Bar";
 
 var l = "back1";
 
@@ -46,7 +47,9 @@ class HomePage extends React.Component {
       <>
         <section id="page1">
           <div id="Main">Kiya baat hai ji!</div>
-          <div>•Image Annotation •Another thing •Another thing 2</div>
+          <div id="Subheading">
+            •Image Annotation •Deep Learning •Tumhara Abbu
+          </div>
         </section>
 
         <section id="page2">
@@ -130,6 +133,7 @@ class HomePage extends React.Component {
         <br />
         <br />
         <br />
+        <Bar />
       </>
     );
   }
