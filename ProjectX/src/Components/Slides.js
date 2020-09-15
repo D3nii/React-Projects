@@ -1,5 +1,4 @@
 import React from "react";
-
 import "react-slideshow-image/dist/styles.css";
 import { Slide } from "react-slideshow-image";
 
@@ -7,7 +6,7 @@ import "../Style/Slides.css";
 
 function Slides() {
   return (
-    <div>
+    <div id="slide">
       <Slide easing="ease">
         <div className="each-slide">
           <div
