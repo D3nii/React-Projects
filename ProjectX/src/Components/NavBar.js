@@ -9,14 +9,16 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="hred">
         <Link to="/">
-          <span id="companyName">Masti keriyan?</span>
+          <span id="companyName" className="hred">
+            Masti keriyan?
+          </span>
         </Link>
         <Link to="/services">
           <span>Our Services</span>
         </Link>
-        <span>About</span>
+        <span className="hred">About</span>
 
         <Link to="/demo">
           <button className="de">Request a demo</button>
