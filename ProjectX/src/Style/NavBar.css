@@ -1,10 +1,13 @@
 #companyName {
-  padding-right: 25%;
-  font-style: italic;
+  margin-right: 25%;
 }
 
 #otherButtons a {
   margin: 25px;
+}
+
+.hred :hover {
+  color: darkred;
 }
 
 a {
@@ -12,6 +15,16 @@ a {
   margin: 0 4px;
   color: white;
   margin: 0 50px;
+}
+.de {
+  border: 2px solid red;
+  border-radius: 15px;
+}
+
+.de :hover {
+  border: 0px solid;
+  font-size: 15px;
+  color: red;
 }
 
 div {
