@@ -1,8 +1,29 @@
-* {
+#App {
   text-align: center;
   background-color: rgb(27, 21, 21);
+  margin-left: 10px;
 }
 
 hr {
-  background-color: white;
+  background-color: white !important;
+}
+#jake {
+  display: flex;
+}
+#jake1 {
+  margin-left: 100px;
+}
+#jake2 {
+  margin-left: 300px;
+  bottom: 2px;
+  position: relative;
+}
+h2 {
+  color: darkred !important;
+}
+p:hover {
+  color: darkred !important;
+}
+#jak > h1 {
+  color: darkred;
 }
