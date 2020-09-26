@@ -1,0 +1,21 @@
+#main {
+  position: absolute;
+  left: 150px;
+  font-size: 50px;
+}
+
+#leftover {
+  top: 200px;
+  position: relative;
+  left: -380px;
+}
+
+#page1 {
+  margin-top: 12%;
+}
+
+#rightslide {
+  left: 350px;
+  position: relative;
+  top: 30px;
+}
