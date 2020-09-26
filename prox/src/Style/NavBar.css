@@ -1,0 +1,48 @@
+#companyName {
+  margin-right: 25%;
+}
+
+#otherButtons a {
+  margin: 25px;
+}
+
+.hred :hover {
+  color: darkcyan;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  margin: 0 4px;
+  color: black;
+  margin: 0 50px;
+}
+
+.de {
+  border: 2px solid darkcyan;
+  background-color: white;
+  border-radius: 15px;
+}
+
+button .de :hover {
+  border: 0px;
+  margin-left: 6px;
+}
+
+div {
+  padding-top: 10px;
+  color: black;
+}
+
+#companyName {
+  font-family: "Righteous", cursive;
+  font-size: 20px;
+}
+
+button {
+  color: black;
+}
+
+.hred {
+  padding: 0 15px;
+}
