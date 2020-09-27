@@ -10,11 +10,8 @@ class Page3Cards extends React.Component {
   render() {
     return (
       <div id="page3">
-        <br></br>
-        <div class="tooltip">
-          <h2>{this.props.heading}</h2>
-          <p class="tooltiptext">{this.props.body}</p>
-        </div>
+        <h2 className="page3_heading">{this.props.heading}</h2>
+        <p id="page3_body">{this.props.body}</p>
       </div>
     );
   }
