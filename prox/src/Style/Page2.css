@@ -1,0 +1,11 @@
+#main2 {
+  position: absolute;
+  left: 380px;
+  font-size: 50px;
+  max-width: 720px;
+}
+
+#leftover2 {
+  top: 140px;
+  position: relative;
+}
