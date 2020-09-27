@@ -11,13 +11,6 @@
   cursor: pointer;
 }
 
-a {
-  text-decoration: none;
-  margin: 0 4px;
-  color: black;
-  margin: 0 50px;
-}
-
 .navButton {
   border: 2px solid darkcyan;
   background-color: white;
