@@ -6,7 +6,7 @@
   margin: 25px;
 }
 
-.hred :hover {
+.navBar :hover {
   color: darkcyan;
   cursor: pointer;
 }
@@ -18,13 +18,13 @@ a {
   margin: 0 50px;
 }
 
-.de {
+.navButton {
   border: 2px solid darkcyan;
   background-color: white;
   border-radius: 15px;
 }
 
-button .de :hover {
+button .navButton :hover {
   border: 0px;
   margin-left: 6px;
 }
@@ -43,6 +43,6 @@ button {
   color: black;
 }
 
-.hred {
+.navBar {
   padding: 0 15px;
 }
