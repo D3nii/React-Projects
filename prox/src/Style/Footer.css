@@ -6,23 +6,39 @@
 hr {
   background-color: white !important;
 }
+
 #col {
   display: flex;
 }
+
 #col1 {
-  margin-left: 100px;
+  margin-left: 60px;
 }
+
 #col2 {
   margin-left: 300px;
   bottom: 2px;
   position: relative;
 }
+
 h2 {
   color: darkred !important;
 }
-p:hover {
+
+a:hover {
   color: darkred !important;
 }
-#jak > h1 {
+
+#footerMain > h1 {
   color: darkred;
+}
+
+#footerMain > p {
+  width: 340px;
+}
+
+#col1 > a {
+  text-decoration: none;
+  display: block;
+  margin: 15px 0;
 }
