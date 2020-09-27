@@ -11,23 +11,23 @@ class Footer extends React.Component {
     return (
       <div id="App">
         <br />
-        <div id="jake">
+        <div id="col">
           <div id="jak">
             <h1>Masti keriyan?</h1>
-            <p>ahsuhdfgjhgfdgshjahsgdfgshajhs</p>
+            <p>Masti keriyan</p>
           </div>
 
-          <div id="jake2">
+          <div id="col1">
             <h2>Community</h2>
             <p>Facebook</p>
             <p>Instagram</p>
           </div>
-          <div id="jake1">
+          <div id="col1">
             <h2>Company</h2>
             <p>About Us</p>
             <p>Contact Us</p>
           </div>
-          <div id="jake1">
+          <div id="col1">
             <h2>Subscribe</h2>
             <input type="text" />
           </div>
