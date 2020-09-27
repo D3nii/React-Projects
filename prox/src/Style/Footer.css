@@ -6,13 +6,13 @@
 hr {
   background-color: white !important;
 }
-#jake {
+#col {
   display: flex;
 }
-#jake1 {
+#col1 {
   margin-left: 100px;
 }
-#jake2 {
+#col2 {
   margin-left: 300px;
   bottom: 2px;
   position: relative;
