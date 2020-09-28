@@ -1,6 +1,5 @@
 import React from "react";
-
-import { linkedin } from "react-icons/fa";
+import { SiFacebook, SiGmail, SiLinkedin } from "react-icons/si";
 
 import "../Style/Footer.css";
 
@@ -17,15 +16,19 @@ class Footer extends React.Component {
           <div id="footerMain">
             <h1>Masti keriyan?</h1>
             <p>
-              Masti keriyan is an image annotation company for computer vision
+              Masti keriyan is an image annotation company forn computer vision
               projects.{" "}
             </p>
-            <a href={"mailto:" + "EMAIL"}>email</a>
             <p>+92 300 6405343</p>
             <span>Get in touch</span>
-            <a href="/">
-              <linkedin />
-              <i class="fab fa-linkedin"></i>
+            <a id="Links" href="/">
+              <SiFacebook />
+            </a>
+            <a id="Links" href="/">
+              <SiLinkedin />
+            </a>
+            <a id="Links" href={"mailto:" + "EMAIL"}>
+              <SiGmail />
             </a>
           </div>
 
