@@ -34,21 +34,21 @@ class Footer extends React.Component {
 
           <div id="col1">
             <h2>Solutions</h2>
-            <a href="/">Lines</a>
-            <a href="/">Bounding Boxes</a>
-            <a href="/">Points</a>
-            <a href="/">Polygons</a>
-            <a href="/">Classification</a>
-            <a href="/">Tracking</a>
+            <a href="#main2">Lines</a>
+            <a href="#main2">Bounding Boxes</a>
+            <a href="#main2">Points</a>
+            <a href="#main2">Polygons</a>
+            <a href="#main2">Classification</a>
+            <a href="#main2">Tracking</a>
           </div>
 
           <div id="col1">
             <h2>Core Values</h2>
-            <a href="/">Quality</a>
-            <a href="/">Security & Privacy</a>
-            <a href="/">Timely Deliveries</a>
-            <a href="/">Lowest Prices</a>
-            <a href="/">Speed</a>
+            <a href="#main3">Quality</a>
+            <a href="#main3">Security & Privacy</a>
+            <a href="#main3">Timely Deliveries</a>
+            <a href="#main3">Lowest Prices</a>
+            <a href="#main3">Speed</a>
           </div>
 
           <div id="col1">
