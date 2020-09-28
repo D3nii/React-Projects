@@ -44,7 +44,7 @@ class Page2 extends React.Component {
   render() {
     return (
       <>
-        <h1 style={{ color: "darkcyan", fontSize: "50px" }}>
+        <h1 id="main2" style={{ color: "darkcyan", fontSize: "50px" }}>
           Services We Provide
         </h1>
         <section id="page2">
