@@ -8,17 +8,17 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <div className="hred">
-        <span id="companyName" className="hred">
+      <div className="navBar">
+        <span id="companyName" className="navBar">
           Masti keriyan?
         </span>
-        <span className="hred">Annotation</span>
-        <span className="hred">Industries</span>
-        <span className="hred">Portfolio</span>
-        <span className="hred">Testimonials</span>
-        <span className="hred">About us</span>
+        <span className="navBar">Annotation</span>
+        <span className="navBar">Industries</span>
+        <span className="navBar">Portfolio</span>
+        <span className="navBar">Testimonials</span>
+        <span className="navBar">About us</span>
 
-        <button className="de">Request a demo</button>
+        <button className="navButton">Request a demo</button>
       </div>
     );
   }

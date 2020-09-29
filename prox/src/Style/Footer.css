@@ -6,23 +6,44 @@
 hr {
   background-color: white !important;
 }
-#jake {
+
+#col {
   display: flex;
 }
-#jake1 {
-  margin-left: 100px;
+#Links {
+  color: black;
+  margin-left: 10px;
 }
-#jake2 {
+
+#col1 {
+  margin-left: 60px;
+}
+
+#col2 {
   margin-left: 300px;
   bottom: 2px;
   position: relative;
 }
+
 h2 {
   color: darkred !important;
 }
-p:hover {
+
+a:hover {
   color: darkred !important;
 }
-#jak > h1 {
+
+#footerMain > h1 {
   color: darkred;
+}
+
+#footerMain > p {
+  width: 340px;
+}
+
+#col1 > a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  margin: 15px 0;
 }

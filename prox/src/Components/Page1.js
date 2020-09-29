@@ -11,8 +11,10 @@ class Page1 extends React.Component {
     return (
       <div id="page1">
         <div id="main">
-          <span style={{ color: "darkcyan" }}>Image Annotation</span> <br /> for{" "}
-          <br /> Computer Vision
+          <span id="main_1" style={{ color: "darkcyan" }}>
+            Image Annotation
+          </span>{" "}
+          <br /> for <br /> Computer Vision
         </div>
         <div id="leftover">
           We provide high quality food for your machine learning models <br />{" "}
