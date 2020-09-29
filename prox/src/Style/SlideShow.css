@@ -1,0 +1,15 @@
+img {
+  position: relative;
+  left: 330px;
+  margin-bottom: -50px;
+}
+
+.Bar,
+.SubBar {
+  padding: 0 15px;
+  font-size: 20px;
+}
+.SubBar:hover {
+  color: darkcyan;
+  cursor: pointer;
+}
