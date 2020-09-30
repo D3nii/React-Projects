@@ -9,6 +9,7 @@ img {
   padding: 0 15px;
   font-size: 20px;
 }
+
 .SubBar:hover {
   color: darkcyan;
   cursor: pointer;
