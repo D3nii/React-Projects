@@ -6,9 +6,7 @@ import NavBar from "./Components/NavBar";
 import Page1 from "./Components/Page1";
 import Page2 from "./Components/Page2";
 import Page3 from "./Components/Page3";
-
 import SlideShow from "./Components/SlideShow";
-
 import Footer from "./Components/Footer";
 
 function App() {
@@ -38,24 +36,6 @@ function App() {
 
       <Page2 />
 
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
       <Page3 />
 
       <br />
@@ -77,7 +57,6 @@ function App() {
       <br />
 
       <SlideShow />
-
       <br />
       <br />
       <br />
