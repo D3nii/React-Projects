@@ -235,7 +235,7 @@ class SlideShow extends Component {
           {photos.map((photo) => {
             return (
               <div>
-                <img width="500px" src={photo.url} />
+                <img id="slideShowImage" width="500px" src={photo.url} />
               </div>
             );
           })}
