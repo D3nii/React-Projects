@@ -43,11 +43,6 @@
   position: relative;
 }
 
-img {
-  float: left;
-  margin-left: 60px;
-}
-
 #services div {
   margin-left: 720px;
   margin-right: 120px;
