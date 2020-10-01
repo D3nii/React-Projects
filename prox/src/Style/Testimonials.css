@@ -1,0 +1,47 @@
+#testimonial {
+  background-color: white;
+  width: 27.5%;
+  margin: 0 20px;
+  box-shadow: 0px 0px 20px -6px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  border: 2px solid darkcyan;
+}
+
+#invertedComma {
+  font-style: italic;
+  font-family: Raanana;
+  font-size: 100px;
+  color: darkcyan;
+}
+
+#TestimonialWriting {
+  padding: 0 30px;
+  font-style: italic;
+  font-size: 18px;
+  bottom: 10px;
+  position: relative;
+}
+
+#baaar {
+  font-size: 100px;
+  top: -40px;
+  position: relative;
+  color: darkcyan;
+  width: 75px;
+  margin: 0 auto;
+}
+
+#testimonialPicture {
+  border-radius: 1560px;
+  width: 150px;
+  bottom: 75px;
+  position: relative;
+}
+
+#testimonialName {
+  font-style: italic;
+  color: darkcyan;
+  margin-bottom: -40px;
+  bottom: 65px;
+  position: relative;
+}
