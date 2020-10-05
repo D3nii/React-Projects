@@ -27,15 +27,15 @@ hr {
 }
 
 h2 {
-  color: darkred !important;
+  color: darkcyan !important;
 }
 
 a:hover {
-  color: darkred !important;
+  color: darkcyan !important;
 }
 
 #footerMain > h1 {
-  color: darkred;
+  color: darkcyan;
 }
 
 #footerMain > p {
