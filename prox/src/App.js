@@ -11,6 +11,8 @@ import Testionials from "./Components/Testimonials";
 import SlideShow from "./Components/SlideShow";
 import Footer from "./Components/Footer";
 
+import "./Style/Media Queries/Ipad.css";
+
 function App() {
   return (
     <div className="App">
