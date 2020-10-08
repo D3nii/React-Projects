@@ -39,8 +39,9 @@
 }
 
 #services {
-  bottom: 50px;
+  max-height: 600px;
   position: relative;
+  top: 185px;
 }
 
 #services div {
