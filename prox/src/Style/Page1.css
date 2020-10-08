@@ -15,7 +15,6 @@
 }
 
 #rightslide {
-  left: 350px;
+  margin-left: 350px;
   position: relative;
-  top: 30px;
 }
