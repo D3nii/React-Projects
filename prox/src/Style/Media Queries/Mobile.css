@@ -1,0 +1,238 @@
+@media only screen and (max-width: 812px) {
+  .Media {
+    margin-left: -20px;
+  }
+
+  #leftover {
+    top: 200px;
+    position: relative;
+    left: 0px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #main {
+    position: absolute;
+    left: 115px;
+    font-size: 25px;
+  }
+  #rightslide {
+    display: none;
+  }
+  #main2 {
+    font-size: 20px;
+    color: darkcyan;
+  }
+  #back1 {
+    z-index: 1;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 200px;
+    background-image: url("https://drive.google.com/file/d/1ZsK36teedDcqsBcp4yRcZqzVK9AvRFlr/view");
+    width: 35pc;
+    height: 35pc;
+    top: 200px;
+  }
+
+  #front1 {
+    position: relative;
+    top: 170px;
+    z-index: -1;
+    background-size: 200px;
+    background-image: url("https://drive.google.com/file/d/1QaHcKynnfzEl6f1AGl7deQ_qi2elpqwE/view?usp=sharing");
+    background-repeat: no-repeat;
+    width: 35pc;
+    height: 35pc;
+  }
+
+  #back2 {
+    z-index: 1;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 200px;
+    background-image: url("https://drive.google.com/file/d/1rcMXyTjpNdlkt0D84mXKsaXUptobkQ4G/view?usp=sharing");
+    width: 35pc;
+    height: 35pc;
+    top: 200px;
+  }
+
+  #front2 {
+    position: relative;
+    top: 170px;
+    z-index: -1;
+    background-size: 200px;
+    background-image: url("https://drive.google.com/file/d/1YOcoYwlhMmu3Dy1yTZc28PU1p9b7GpTO/view?usp=sharing");
+    background-repeat: no-repeat;
+    width: 35pc;
+    height: 35pc;
+  }
+
+  #back3 {
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    width: 35pc;
+    height: 35pc;
+    top: 200px;
+
+    position: absolute;
+    background-image: url("https://drive.google.com/file/d/1NR5pPcnAC3BlFko40wi2UImneb7tje6S/view?usp=sharing");
+  }
+
+  #front3 {
+    top: 170px;
+
+    z-index: 0;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-image: url("https://drive.google.com/file/d/1roN_6R0Y1t2pEdDeYbImVVb1pLs04ar3/view?usp=sharing");
+    width: 35pc;
+    height: 35pc;
+    position: relative;
+    bottom: 580px;
+  }
+
+  #services {
+    top: 200px;
+    position: relative;
+    right: 20px;
+  }
+
+  #services div {
+    margin-left: 120px;
+    margin-right: 120px;
+    height: 20px;
+    width: 40%;
+  }
+
+  #lol {
+    top: 0px;
+  }
+
+  div .sliderOption {
+    width: 40%;
+    height: 40%;
+  }
+
+  .littleHeading {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .littleBody {
+    display: none;
+  }
+  #slider {
+    position: relative;
+    bottom: 200px;
+  }
+  #main3 {
+    font-size: 30px;
+    margin-bottom: 100px;
+  }
+
+  #page3_cards {
+    display: flex;
+    margin: 10px 70px;
+    border: 3px solid darkcyan;
+    border-radius: 5px;
+    position: relative;
+    height: 150px;
+  }
+
+  .page3_heading {
+    margin: 5px auto;
+    font-size: 20px;
+  }
+
+  #page3_body {
+    width: 75%;
+    left: 30px;
+    top: 50px;
+    position: absolute;
+    font-size: 10px;
+  }
+
+  #page3_body {
+    width: 80%;
+    left: 30px;
+    top: 34px;
+    position: absolute;
+    font-size: 10px;
+  }
+  #page3 {
+    display: flex;
+    margin: 10px 0;
+    margin-left: 30px;
+    border: 3px solid darkcyan;
+    border-radius: 30px;
+    position: relative;
+    width: 300px;
+    height: 100px;
+  }
+
+  .page3_heading {
+    margin: -5px auto;
+    font-size: 20px;
+  }
+
+  .Bar,
+  .SubBar {
+    padding: 3px 10px;
+    font-size: 15px;
+    display: inline-block;
+  }
+  #slideShowImage {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    left: 20px;
+  }
+
+  #testimonialName {
+    font-style: italic;
+    color: darkcyan;
+    bottom: 165px;
+    position: relative;
+    padding-bottom: 2;
+  }
+  #baaar {
+    font-size: 100px;
+    top: -120px;
+    position: relative;
+    color: darkcyan;
+    width: 75px;
+    margin: 0 auto;
+  }
+  #invertedComma {
+    font-style: italic;
+    font-family: Raanana;
+    font-size: 100px;
+    color: darkcyan;
+    bottom: 20px;
+    position: relative;
+    right: 10px;
+  }
+  #testimonial {
+    background-color: white;
+    width: 70%;
+    margin: 0 20px;
+    box-shadow: 0px 0px 20px -6px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    border: 2px solid darkcyan;
+    height: 300px;
+  }
+  #TestimonialWriting {
+    padding: 0 30px;
+    font-style: italic;
+    font-size: 18px;
+    bottom: 70px;
+    position: relative;
+  }
+  #testimonialPicture {
+    border-radius: 1560px;
+    width: 50px;
+    bottom: 160px;
+    position: relative;
+  }
+}
