@@ -73,6 +73,15 @@
     position: relative;
   }
 
+  #page3_cards {
+    display: flex;
+    margin: 10px 140px;
+    border: 3px solid darkcyan;
+    border-radius: 5px;
+    position: relative;
+    height: 140px;
+  }
+
   #testimonialName {
     font-style: italic;
     color: darkcyan;
@@ -88,6 +97,19 @@
 
   #footerMain > p {
     width: 320px;
+  }
+
+  .page3_heading {
+    margin: auto 40px;
+    font-size: 28px;
+  }
+
+  #page3_body {
+    width: 45%;
+    left: 362px;
+    top: 35px;
+    position: absolute;
+    font-size: 14px;
   }
 }
 
@@ -129,6 +151,15 @@
     position: relative;
     width: 475px;
     height: 264px;
+  }
+
+  #page3_cards {
+    display: flex;
+    margin: 10px 140px;
+    border: 3px solid darkcyan;
+    border-radius: 5px;
+    position: relative;
+    height: 140px;
   }
 
   #page3_left {
@@ -174,6 +205,19 @@
 
   #footerMain > p {
     width: 320px;
+  }
+
+  .page3_heading {
+    margin: auto 40px;
+    font-size: 28px;
+  }
+
+  #page3_body {
+    width: 45%;
+    left: 362px;
+    top: 35px;
+    position: absolute;
+    font-size: 14px;
   }
 }
 
@@ -294,6 +338,15 @@
     font-size: 16px;
   }
 
+  #page3_cards {
+    display: flex;
+    margin: 10px 140px;
+    border: 3px solid darkcyan;
+    border-radius: 5px;
+    position: relative;
+    height: 140px;
+  }
+
   #page3_right {
     display: flex;
     margin: 10px 100px;
@@ -350,6 +403,19 @@
   #footerMain > p {
     font-size: 20px;
     margin-left: 80px;
+  }
+
+  .page3_heading {
+    margin: auto 40px;
+    font-size: 32px;
+  }
+
+  #page3_body {
+    width: 55%;
+    left: 450px;
+    top: 38px;
+    position: absolute;
+    font-size: 14px;
   }
 
   #footerMain > span {
