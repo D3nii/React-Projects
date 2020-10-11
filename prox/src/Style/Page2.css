@@ -2,16 +2,24 @@
   font-family: "Righteous", cursive;
   font-size: 40px;
   max-width: 420px;
-
   color: #fff;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 0.15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.15em; /* Adjust as needed */
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em;
+  /* Adjust as needed */
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
+#main2 {
+  color: darkcyan;
+  font-size: 50px;
+}
 /* The typing effect */
 @keyframes typing {
   from {
@@ -21,7 +29,6 @@
     width: 100%;
   }
 }
-
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from,
@@ -32,52 +39,71 @@
     border-color: orange;
   }
 }
-
 #slider div {
   margin-right: 400px;
   height: 500px;
 }
-
 #services {
-  max-height: 600px;
+  bottom: 370px;
   position: relative;
-  top: 185px;
+}
+#scroll {
+  width: 1380px;
+  height: 440px;
+  overflow: auto;
+  position: relative;
+  bottom: 300px;
+  right: 100px;
+}
+#scroll::-webkit-scrollbar {
+  display: none;
 }
 
+/* Hide scrollbar for IE, Edge and Firefox */
+#scroll {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
 #services div {
-  margin-left: 720px;
-  margin-right: 120px;
-  height: 100px;
+  height: 140px;
+  max-width: 600px;
+  left: 750px;
+  position: relative;
 }
-
+#icons {
+  margin-right: 20px;
+  position: relative;
+  top: 5px;
+}
 div .sliderOption {
-  background-color: white;
-  border: 5px solid darkcyan;
-  border-radius: 40px;
   margin: 10px 0;
   padding: 10px;
   bottom: 495px;
+  top: 350px;
   position: relative;
+  background-color: rgb(78, 83, 119);
+  text-align: left !important;
+}
+.littleHeading:hover,
+.sliderOption :hover,
+.littleBody:hover {
+  cursor: pointer;
 }
 
 .littleHeading {
+  color: white;
   font-size: 30px;
-  text-align: center;
 }
-
 .littleBody {
-  color: black;
+  color: white;
   top: 12px;
   position: relative;
-}
-
-.littleBody,
-.littleHeading {
-  background-color: white;
+  left: 50px;
 }
 
 /* */
-
 .images {
   margin-left: 15px;
   position: relative;
@@ -86,7 +112,6 @@ div .sliderOption {
   margin-top: 20px;
   margin-left: 80px;
 }
-
 #back1 {
   z-index: 1;
   background-repeat: no-repeat;
@@ -97,7 +122,6 @@ div .sliderOption {
   height: 35pc;
   top: 200px;
 }
-
 #front1 {
   position: relative;
   top: 170px;
@@ -108,7 +132,6 @@ div .sliderOption {
   width: 35pc;
   height: 35pc;
 }
-
 #back2 {
   z-index: 1;
   background-repeat: no-repeat;
@@ -119,7 +142,6 @@ div .sliderOption {
   height: 35pc;
   top: 200px;
 }
-
 #front2 {
   position: relative;
   top: 170px;
@@ -130,7 +152,6 @@ div .sliderOption {
   width: 35pc;
   height: 35pc;
 }
-
 #back3 {
   z-index: 1;
   background-repeat: no-repeat;
@@ -138,14 +159,11 @@ div .sliderOption {
   width: 35pc;
   height: 35pc;
   top: 200px;
-
   position: absolute;
   background-image: url("../Images/up3.jpg");
 }
-
 #front3 {
   top: 170px;
-
   z-index: 0;
   background-size: 500px;
   background-repeat: no-repeat;
@@ -155,11 +173,9 @@ div .sliderOption {
   position: relative;
   bottom: 580px;
 }
-
 #slidecontainer {
   position: relative;
 }
-
 .slider {
   position: absolute;
   text-align: left;
@@ -167,27 +183,24 @@ div .sliderOption {
   z-index: 1;
   text-decoration: none;
 }
-
 #slider2 {
   position: relative;
   bottom: 340px;
   top: -10px;
   position: relative;
   padding-top: 250px;
+  position: relative;
+  right: 8px;
 }
-
 #lol {
   top: 200px;
 }
-
 #img1 {
   display: block;
 }
-
 #img2 {
   display: none;
 }
-
 #img3 {
   display: none;
 }
