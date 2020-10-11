@@ -1,0 +1,21 @@
+#Pipeline {
+    display: flex;
+    margin: 0 100px;
+}
+
+#PipelineCard0, #PipelineCard1, #PipelineCard2, 
+#PipelineCard3, #PipelineCard4, #PipelineCard5 {
+    display: inline-block;
+    margin: 0 20px;
+    height: 200px;
+}
+
+#PipelineHeading {
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(78,83,119);
+}
+
+#PipelineBody {
+    width: 160px;
+}
