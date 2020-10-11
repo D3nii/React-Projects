@@ -9,9 +9,11 @@ import Page3 from "./Components/Page3";
 
 import Testionials from "./Components/Testimonials";
 import SlideShow from "./Components/SlideShow";
+import Pipeline from "./Components/Pipeline";
 import Footer from "./Components/Footer";
 
 import "./Style/Media Queries/Ipad.css";
+import "./Style/Media Queries/Mobile.css";
 
 function App() {
   return (
@@ -82,25 +84,43 @@ function App() {
 
       <h1>What our Clients say about us.</h1>
       <Testionials
-        message="Masti keriyan? Oh baaz aaja, baaz. Tu badi hraam maut merna ae, tune
-          kuttiyan ne khana ae. Lehaza, chal mera puttar, chutti ker."
+        message="Hellow there."
         imageUrl="https://i.ytimg.com/vi/Z4ph23FCcLQ/hqdefault.jpg"
-        name="Abbu tumhara"
+        name="Ms. A"
       />
 
       <Testionials
-        message="Masti keriyan? Oh baaz aaja, baaz. Tu badi hraam maut merna ae, tune
-          kuttiyan ne khana ae. Lehaza, chal mera puttar, chutti ker."
+        message="Hi Ji."
         imageUrl="https://i.ytimg.com/vi/Z4ph23FCcLQ/hqdefault.jpg"
-        name="Abbu tumhara"
+        name="Mr. B"
       />
 
       <Testionials
-        message="Masti keriyan? Oh baaz aaja, baaz. Tu badi hraam maut merna ae, tune
-          kuttiyan ne khana ae. Lehaza, chal mera puttar, chutti ker."
+        message="Hello Ji."
         imageUrl="https://i.ytimg.com/vi/Z4ph23FCcLQ/hqdefault.jpg"
-        name="Abbu tumhara"
+        name="Mr. C"
       />
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <Pipeline />
+
       <br />
       <br />
       <br />
