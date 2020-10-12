@@ -17,6 +17,8 @@
   padding: 10px 10px;
   transition: 1.5s;
   width: 200px;
+  background-color: white;
+  opacity: 0.1;
 }
 
 #PipelineHeading {
