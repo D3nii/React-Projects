@@ -20,27 +20,23 @@ const moveSliderPointerH = (hor) => {
   
   x = document.getElementById("slider2");
 
-  if (hor < 500)
+  if (hor >= 0 && hor < 500)
     x.style.marginLeft = hor + "px";
 }; //Controlling the horizontal movement
 
 const moveSliderPointerV = (vert) => {
-  // let x = document.getElementById(l);
-
-  // x.style.width = vert + "px";
-  
   x = document.getElementById("slider2");
 
-  if (vert < 500)
+  //x.style.position = "relative";
+  if (vert < 500) {
     x.style.marginTop = vert + "px";
+    //x.style.marginBottom = (500 - vert) + "px";
+  }
 }; //Controlling the vertical movement
 
 const moveSliderPointerHelper = (e) => {
-  x = 1;
-
   moveSliderPointerH(e.clientX - 79);
-  moveSliderPointerV(e.clientY - 350);
-
+  //moveSliderPointerV(e.clientY);
 };
 
 const first = () => {
@@ -79,8 +75,7 @@ class Page2 extends React.Component {
         <section id="page2">
           <span id="slider">
             <div className="images">
-              <div className="slidecontainer">
-                
+              <div className="slidecontainer"> 
                 <div id="img1">
                   <div id="back1"></div>
                   <div id="front1"></div>
@@ -97,9 +92,8 @@ class Page2 extends React.Component {
                 </div>
 
                 <div id="lol" className="slider" onMouseMove={moveSliderPointerHelper}>
-                <div id="slider2"><BsLifePreserver/>
+                  <div id="slider2"><BsLifePreserver/></div>
                 </div>
-                  </div>
               </div>
             </div>
           </span>
@@ -109,19 +103,19 @@ class Page2 extends React.Component {
                 <div className="sliderOption">
                   <span className="littleHeading"><IoIosContract id="icons"/> Tracking</span> <br />
                   <a className="spe" id="section1">
-                  <span className="littleBody"onClick={first}>
-                    For the problems as Surveillance, Monitoring and Enforcement,
-                  <section>detecting and tracking objects in videos.</section> 
-                  </span>
+                    <span className="littleBody"onClick={first}>
+                      For the problems as Surveillance, Monitoring and Enforcement,
+                      detecting and tracking objects in videos.
+                    </span>
                   </a>
                 </div>
               
                 <div className="sliderOption">
                   <span className="littleHeading"><VscSymbolClass id="icons"/>Classification</span> <br />
                   <a className="spe" >
-                  <span className="littleBody"onClick={second}>
-                    For classification of images to assign them different classes.
-                  </span>
+                    <span className="littleBody"onClick={second}>
+                      For classification of images to assign them different classes.
+                    </span>
                   </a>
                 </div>
               
@@ -129,47 +123,45 @@ class Page2 extends React.Component {
                   <span className="littleHeading"><BsBoundingBox id="icons"/>Bounding Boxes</span>
                   <br />
                   <a className="spe" onClick={third}>
-                  <span className="littleBody">
-                    Bounding Boxes are quick and cheap to make, especially with
-                    experience.
-                    <section> For object detection, localization using
-                    2-dimensional or 3-dimensional</section> <section>bounding boxes.
-                    </section>
-                  </span>
+                    <span className="littleBody">
+                      Bounding Boxes are quick and cheap to make, especially with
+                      experience. For object detection, localization using 
+                      2-dimensional or 3-dimensional bounding boxes.
+                    </span>
                   </a>
                 </div>
           
                 <div className="sliderOption">
                   <span className="littleHeading"><BiShapePolygon id="icons"/>Polygons</span> <br />
                   <a className="spe" onClick={third}>
-                  <span className="littleBody">
-                    For applications like semantic and instance segmentation.{" "}
-                  </span>
+                    <span className="littleBody">
+                      For applications like semantic and instance segmentation.{" "}
+                    </span>
                   </a>
                 </div>
             
                 <div className="sliderOption" >
                   <span className="littleHeading"><GiThreePointedShuriken id="icons"/>Points</span> <br />
                   <a className="spe" onClick={second}>
-                  <span className="littleBody">
-                    For key point estimation in problems in Pose Estimation or
-                    Facial key points Estimation.{" "}
-                  </span>
+                    <span className="littleBody">
+                      For key point estimation in problems in Pose Estimation or
+                      Facial key points Estimation.{" "}
+                    </span>
                   </a>
                 </div>
             
                 <div className="sliderOption">
                   <span className="littleHeading"><AiOutlineFall id="icons"/>Lines</span> <br />
                   <a className="spe" onClick={first} id="section2">
-                  <span className="littleBody">
-                    For Main roads / Lanes for the self-driving car technology.
-                  </span>
+                    <span className="littleBody">
+                      For Main roads / Lanes for the self-driving car technology.
+                    </span>
                   </a>
                 </div>
             </span>
           </div>
+          <img src={require('../Images/down_arrow.gif')} alt="loading..." id="down_arrow" />
         </section>
-     
       </>
     );
   }
