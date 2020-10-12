@@ -1,21 +1,44 @@
 #Pipeline {
-    display: flex;
-    margin: 0 100px;
+  display: flex;
+  margin: 0 50px;
+  margin-top: 50px;
 }
 
-#PipelineCard0, #PipelineCard1, #PipelineCard2, 
-#PipelineCard3, #PipelineCard4, #PipelineCard5 {
-    display: inline-block;
-    margin: 0 20px;
-    height: 200px;
+#PipelineCard0,
+#PipelineCard1,
+#PipelineCard2,
+#PipelineCard3,
+#PipelineCard4,
+#PipelineCard5 {
+  display: inline-block;
+  margin: 60px 10px;
+  height: 250px;
+  border-radius: 20px;
+  padding: 10px 10px;
+  transition: 1.5s;
+  width: 200px;
 }
 
 #PipelineHeading {
-    font-weight: bold;
-    font-size: 22px;
-    color: rgb(78,83,119);
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(78, 83, 119);
 }
 
 #PipelineBody {
-    width: 160px;
+  width: 164px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+#PipelineWrapper {
+  height: 600px;
+  background-color: rgb(78, 83, 119);
+}
+
+#PipelineMain {
+  font-size: 40px;
+  color: white;
+  padding-top: 30px;
 }
