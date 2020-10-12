@@ -1,17 +1,17 @@
 #testimonial {
-  background-color: rgb(78, 83, 119);
+  background-color: rgb(255, 255, 255);
   width: 27.5%;
   margin: 0 20px;
   box-shadow: 0px 0px 20px -6px rgba(0, 0, 0, 0.5);
   display: inline-block;
-  border: 2px solid rgb(78, 83, 119);
+  border: 3px solid rgb(78, 83, 119);
 }
 
 #invertedComma {
   font-style: italic;
   font-family: Raanana;
   font-size: 100px;
-  color: white;
+  color: rgb(78, 83, 119);
 }
 
 #TestimonialWriting {
@@ -20,7 +20,7 @@
   font-size: 18px;
   bottom: 10px;
   position: relative;
-  color: white;
+  color: rgb(78, 83, 119);
 }
 
 #baaar {
@@ -41,7 +41,7 @@
 
 #testimonialName {
   font-style: italic;
-  color: white;
+  color: rgb(78, 83, 119);
   margin-bottom: -40px;
   bottom: 65px;
   position: relative;
