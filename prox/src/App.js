@@ -62,26 +62,6 @@ function App() {
       <br />
       <br />
 
-      <SlideShow />
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
       <h1>What our Clients say about us.</h1>
       <Testionials
         message="Hellow there."
