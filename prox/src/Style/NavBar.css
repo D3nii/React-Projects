@@ -7,12 +7,12 @@
 }
 
 .navBar :hover {
-  color: darkcyan;
+  color: rgb(78, 83, 119);
   cursor: pointer;
 }
 
 .navButton {
-  border: 2px solid darkcyan;
+  border: 2px solid rgb(78, 83, 119);
   background-color: white;
   border-radius: 15px;
 }
