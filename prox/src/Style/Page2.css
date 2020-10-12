@@ -17,8 +17,9 @@
 }
 
 #main2 {
-  color: darkcyan;
+  color: rgb(78, 83, 119);
   font-size: 50px;
+  margin-bottom: -125px;
 }
 /* The typing effect */
 @keyframes typing {
