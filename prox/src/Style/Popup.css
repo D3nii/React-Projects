@@ -1,0 +1,28 @@
+.pop {
+  text-align: center;
+}
+#popup {
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  width: 600px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+  transition: 0.5%;
+  background-color: #ffff;
+  transform: translate(-50%, -50%);
+}
+#term {
+  display: grid;
+  text-align: left;
+  margin-left: 150px;
+  width: 1000px;
+  color: rgb(78, 83, 119) !important;
+}
+
+#terms_body {
+  font-size: 15px;
+  color: black;
+  max-width: 500px;
+}
