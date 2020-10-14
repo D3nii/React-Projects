@@ -11,10 +11,8 @@ class Page3 extends React.Component {
 
   render() {
     return (
-      <div>
-        <div id="main3">
-          We <span style={{ color: "darkcyan" }}>Focus </span>On
-        </div>
+      <div id="page3">
+        <h2 id="main3">We Focus On</h2>
 
         <div>
           <Page3Cards
