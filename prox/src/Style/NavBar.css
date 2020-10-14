@@ -10,11 +10,17 @@
   color: rgb(78, 83, 119);
   cursor: pointer;
 }
-
+.navBar {
+  font-size: 17px;
+  /* padding: 0 15px; */
+  margin-right: 0px;
+}
 .navButton {
   border: 2px solid rgb(78, 83, 119);
+  color: rgb(78, 83, 119);
   background-color: white;
   border-radius: 15px;
+  margin-bottom: 15px;
 }
 
 button .navButton :hover {
@@ -31,7 +37,6 @@ div {
   font-family: "Righteous", cursive;
   font-size: 20px;
 }
-
 button {
   color: black;
 }
