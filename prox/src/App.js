@@ -8,7 +8,7 @@ import Page2 from "./Components/Page2";
 import Page3 from "./Components/Page3";
 
 import Testionials from "./Components/Testimonials";
-import SlideShow from "./Components/SlideShow";
+//import SlideShow from "./Components/SlideShow";
 import Pipeline from "./Components/Pipeline";
 import Footer from "./Components/Footer";
 
@@ -17,96 +17,40 @@ import "./Style/Media Queries/Mobile.css";
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
+    <div>
+      <div id="App">
+        <NavBar />
 
-      <Page1 />
+        <Page1 />
 
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+        <Page2 />
 
-      <Page2 />
+        <Page3 />
 
-      <Page3 />
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <div id="Testimonial">
-        <h1>What our Clients say about us.</h1>
-        <Testionials
-          message="
+        <div id="Testimonial">
+          <h1>What our Clients say about us.</h1>
+          <Testionials
+            message="
         Supahands was really professional, they delivered quality results within our timelines. We can't thank them enough for connecting with us regularly and updating us with the progress. Very happy to have worked with them! "
-          name="Aiza Ahmad"
-          desig="Director @ Axiata Digital"
-        />
-        <Testionials
-          message="
+            name="Aiza Ahmad"
+            desig="Director @ Axiata Digital"
+          />
+          <Testionials
+            message="
         Supahands was really professional, they delivered quality results within our timelines. We can't thank them enough for connecting with us regularly and updating us with the progress. Very happy to have worked with them! "
-          name="Aiza Ahmad"
-          desig="Director @ Axiata Digital"
-        />
-        <Testionials
-          message="
+            name="Aiza Ahmad"
+            desig="Director @ Axiata Digital"
+          />
+          <Testionials
+            message="
         Supahands was really professional, they delivered quality results within our timelines. We can't thank them enough for connecting with us regularly and updating us with the progress. Very happy to have worked with them! "
-          name="Aiza Ahmad"
-          desig="Director @ Axiata Digital"
-        />
+            name="Aiza Ahmad"
+            desig="Director @ Axiata Digital"
+          />
+        </div>
+
+        <Pipeline />
       </div>
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
-      <Pipeline />
-
-      <br />
-      <br />
-      <br />
-      <br />
 
       <Footer />
     </div>
