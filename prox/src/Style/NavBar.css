@@ -2,8 +2,9 @@
   margin-right: 25%;
 }
 
-#otherButtons a {
-  margin: 25px;
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 .navBar :hover {
@@ -12,8 +13,8 @@
 }
 .navBar {
   font-size: 17px;
-  /* padding: 0 15px; */
   margin-right: 0px;
+  padding: 0 15px;
 }
 .navButton {
   border: 2px solid rgb(78, 83, 119);
@@ -36,11 +37,4 @@ div {
 #companyName {
   font-family: "Righteous", cursive;
   font-size: 20px;
-}
-button {
-  color: black;
-}
-
-.navBar {
-  padding: 0 15px;
 }
