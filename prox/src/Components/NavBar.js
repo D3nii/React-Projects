@@ -17,8 +17,9 @@ class NavBar extends React.Component {
         <span className="navBar">Portfolio</span>
         <span className="navBar">Testimonials</span>
         <span className="navBar">About us</span>
-
+        <div id="nav_button">
         <button className="navButton">Request a demo</button>
+        </div>
       </div>
     );
   }
