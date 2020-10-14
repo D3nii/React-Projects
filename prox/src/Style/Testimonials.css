@@ -20,6 +20,15 @@
   box-shadow: 0 0 45px 0 #afa5a5, inset 0 0 0 0 transparent;
 }
 
+#Testimonial {
+  padding-top: 120px !important;
+  padding-bottom: 150px !important;
+}
+
+#Testimonial > h1 {
+  color: rgb(78, 83, 119);
+}
+
 #TestimonialWriting {
   padding: 00px 30px;
   top: 50px;
