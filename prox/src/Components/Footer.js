@@ -1,7 +1,8 @@
 import React from "react";
 import { SiFacebook, SiGmail, SiLinkedin } from "react-icons/si";
 
-import Popup from "./Popup";
+import Pop from "./Popup";
+import Policy from "./Policy";
 
 import "../Style/Footer.css";
 
@@ -10,9 +11,15 @@ class Footer extends React.Component {
     super();
   }
 
+  displayPopup() {
+    var pop = document.getElementById("popup");
+    pop.classList.toggle("active");
+    document.getElementById("popup").style.display = "block";
+  }
+
   render() {
     return (
-      <div id="App">
+      <div id="Footer">
         <br />
         <div id="col">
           <div id="footerMain">
@@ -65,8 +72,11 @@ class Footer extends React.Component {
 
           <div id="col1">
             <h2>Legals</h2>
-            <Popup heading="Terms of Services" body="Terms of Services" />
-            <Popup heading="Privacy Policy" body="Privacy Policy" />
+            <span id="call1">
+              <Pop head="Terms of Services" />
+
+              <Policy head1="Privacy Policy" />
+            </span>
           </div>
         </div>
       </div>
