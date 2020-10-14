@@ -10,7 +10,33 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+#Testimonial {
+  background: url(https://supahands.com/wp-content/uploads/2019/10/wave-top2.png)
+      no-repeat 0 0,
+    url(https://supahands.com/wp-content/uploads/2019/10/wave-bottom2.png)
+      no-repeat 0 100.1%,
+    linear-gradient(138deg, #f2f4ff 0%, #e7e4ee 100%);
+  -webkit-box-sizing: border-box;
+  background-size: 100% auto;
+  padding-top: 120px !important;
+  padding-bottom: 150px !important;
+}
+#page2 {
+  background: url(https://supahands.com/wp-content/uploads/2019/10/wave-top2.png)
+      no-repeat 0 0,
+    url(https://supahands.com/wp-content/uploads/2019/10/wave-bottom2.png)
+      no-repeat 0 100.1%,
+    linear-gradient(138deg, #f2f4ff 0%, #e7e4ee 100%);
+  height: 800px;
+  background-size: 100% auto;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  position: relative;
+  bottom: 100px;
+}
+#Testimonial > h1 {
+  color: rgb(78, 83, 119);
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
