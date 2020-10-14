@@ -4,13 +4,13 @@
   border-radius: 5px;
   position: relative;
   height: 140px;
-  background-color: rgb(78, 83, 119);
-  color: white;
+  background-color: white;
+  color: rgb(78, 83, 119);
 }
 
 #page3_body {
   width: 55%;
-  left: 425px;
+  left: 38%;
   top: 40px;
   position: absolute;
   font-size: 14px;
@@ -18,5 +18,4 @@
 
 .page3_heading {
   margin: auto 80px;
-  font-size: 30px;
 }
