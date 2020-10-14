@@ -23,9 +23,11 @@
   }
 }
 
-#slider div {
-  margin-right: 400px;
-  height: 500px;
+#page2 {
+  margin-top: 400px;
+  padding-top: 100px;
+  position: relative;
+  height: 55rem;
 }
 
 #services {
@@ -55,17 +57,21 @@
   scrollbar-width: none;
   /* Firefox */
 }
+
 #services div {
   height: 140px;
   max-width: 600px;
   left: 750px;
   position: relative;
+  margin-right: 400px;
 }
+
 #icons {
   margin-right: 20px;
   position: relative;
   top: 5px;
 }
+
 div .sliderOption {
   margin: 10px 0;
   padding: 10px;
@@ -75,6 +81,7 @@ div .sliderOption {
   background-color: rgb(78, 83, 119);
   text-align: left !important;
 }
+
 .littleHeading:hover,
 .sliderOption :hover,
 .littleBody:hover {
@@ -85,6 +92,7 @@ div .sliderOption {
   color: white;
   font-size: 30px;
 }
+
 .littleBody {
   color: white;
   top: 20px;
