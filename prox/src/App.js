@@ -61,25 +61,27 @@ function App() {
       <br />
       <br />
       <br />
-
-      <h1>What our Clients say about us.</h1>
-      <Testionials
-        message="Hellow there."
-        imageUrl="https://i.ytimg.com/vi/Z4ph23FCcLQ/hqdefault.jpg"
-        name="Ms. A"
-      />
-
-      <Testionials
-        message="Hi Ji."
-        imageUrl="https://i.ytimg.com/vi/Z4ph23FCcLQ/hqdefault.jpg"
-        name="Mr. B"
-      />
-
-      <Testionials
-        message="Hello Ji."
-        imageUrl="https://i.ytimg.com/vi/Z4ph23FCcLQ/hqdefault.jpg"
-        name="Mr. C"
-      />
+      <div id="Testimonial">
+        <h1>What our Clients say about us.</h1>
+        <Testionials
+          message="
+        Supahands was really professional, they delivered quality results within our timelines. We can't thank them enough for connecting with us regularly and updating us with the progress. Very happy to have worked with them! "
+          name="Aiza Ahmad"
+          desig="Director @ Axiata Digital"
+        />
+        <Testionials
+          message="
+        Supahands was really professional, they delivered quality results within our timelines. We can't thank them enough for connecting with us regularly and updating us with the progress. Very happy to have worked with them! "
+          name="Aiza Ahmad"
+          desig="Director @ Axiata Digital"
+        />
+        <Testionials
+          message="
+        Supahands was really professional, they delivered quality results within our timelines. We can't thank them enough for connecting with us regularly and updating us with the progress. Very happy to have worked with them! "
+          name="Aiza Ahmad"
+          desig="Director @ Axiata Digital"
+        />
+      </div>
 
       <br />
       <br />
