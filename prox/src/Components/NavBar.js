@@ -12,13 +12,15 @@ class NavBar extends React.Component {
         <span id="companyName" className="navBar">
           Masti keriyan?
         </span>
-        <span className="navBar">Annotation</span>
-        <span className="navBar">Industries</span>
-        <span className="navBar">Portfolio</span>
-        <span className="navBar">Testimonials</span>
+        <a href="#main2" className="navBar">
+          Annotation
+        </a>
+        <a href="#Testimonial" className="navBar">
+          Testimonials
+        </a>
         <span className="navBar">About us</span>
         <div id="nav_button">
-        <button className="navButton">Request a demo</button>
+          <button className="navButton">Request a demo</button>
         </div>
       </div>
     );
