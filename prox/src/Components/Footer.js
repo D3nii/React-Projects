@@ -1,6 +1,8 @@
 import React from "react";
 import { SiFacebook, SiGmail, SiLinkedin } from "react-icons/si";
 
+import Popup from "./Popup";
+
 import "../Style/Footer.css";
 
 class Footer extends React.Component {
@@ -63,8 +65,8 @@ class Footer extends React.Component {
 
           <div id="col1">
             <h2>Legals</h2>
-            <a href="/">Terms of Services</a>
-            <a href="/">Privacy Policy</a>
+            <Popup heading="Terms of Services" body="Terms of Services" />
+            <Popup heading="Privacy Policy" body="Privacy Policy" />
           </div>
         </div>
       </div>
