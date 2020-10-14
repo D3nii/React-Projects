@@ -1,4 +1,4 @@
-#App {
+#Footer {
   text-align: center;
   margin-left: 10px;
 }
@@ -10,7 +10,9 @@ hr {
 #col {
   display: flex;
 }
-
+#call1 {
+  cursor: pointer;
+}
 #Links {
   color: black;
   margin-left: 10px;
@@ -25,7 +27,9 @@ hr {
   bottom: 2px;
   position: relative;
 }
-
+#call1:hover {
+  color: rgb(78, 83, 119) !important;
+}
 #col1 > h2 {
   color: rgb(78, 83, 119) !important;
 }
