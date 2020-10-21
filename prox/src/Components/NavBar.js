@@ -19,9 +19,9 @@ class NavBar extends React.Component {
           Testimonials
         </a>
         <span className="navBar">About us</span>
-        <div id="nav_button">
+        {/*<div id="nav_button">
           <button className="navButton">Request a demo</button>
-        </div>
+        </div>*/}
       </div>
     );
   }
