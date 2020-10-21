@@ -50,9 +50,8 @@ function App() {
         </div>
 
         <Pipeline />
+        <Footer />
       </div>
-
-      <Footer />
     </div>
   );
 }
