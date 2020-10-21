@@ -24,10 +24,11 @@
 }
 
 #page2 {
-  margin-top: 400px;
+  margin-top: 240px;
   padding-top: 100px;
   position: relative;
-  height: 55rem;
+  display: inline-table;
+  margin-bottom: -400px;
 }
 
 #services {
