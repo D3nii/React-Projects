@@ -1,13 +1,13 @@
 #main {
-  position: absolute;
-  left: 150px;
+  margin-top: 20px;
   font-size: 50px;
+  color: white;
 }
 
 #leftover {
-  top: 200px;
+  top: 20px;
   position: relative;
-  left: -380px;
+  color: whitesmoke;
 }
 
 #page1 {
