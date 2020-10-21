@@ -18,8 +18,6 @@ class Page1 extends React.Component {
           We provide high quality food for your machine learning models <br />{" "}
           so that they grow healthy and fat.{" "}
         </div>
-
-        <div id="rightslide">CHOTI WALI SLIDE!</div>
       </div>
     );
   }
