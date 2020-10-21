@@ -11,11 +11,17 @@ a {
   color: rgb(78, 83, 119);
   cursor: pointer;
 }
+
 .navBar {
-  font-size: 17px;
-  margin-right: 0px;
-  padding: 0 15px;
+  padding: 18px 15px;
+  height: 35px;
+  font-size: 21px;
+  color: white;
+  background-color: black;
+  position: relative;
+  margin: -5px 0px;
 }
+
 .navButton {
   border: 2px solid rgb(78, 83, 119);
   color: rgb(78, 83, 119);
