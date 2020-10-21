@@ -4,6 +4,11 @@
 
 #App {
   text-align: center;
+  background-image: url("./Images/try2.jpg");
+  background-repeat: no-repeat;
+  background-size: 101%;
+  position: absolute;
+  margin: -25px -56px;
 }
 
 html,
