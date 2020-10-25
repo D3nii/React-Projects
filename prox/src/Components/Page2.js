@@ -27,10 +27,10 @@ const moveSliderPointerV = (vert) => {
   x = document.getElementById("slider2");
 
   //x.style.position = "absolute";
-  if (vert < 500) {
-    x.style.marginTop = vert + "px";
-    //x.style.marginBottom = (500 - vert) + "px";
-  }
+  // if (vert < 500) {
+  //   x.style.marginTop = vert + "px";
+  //x.style.marginBottom = (500 - vert) + "px";
+  //}
 }; //Controlling the vertical movement
 
 const moveSliderPointerHelper = (e) => {
@@ -86,11 +86,7 @@ class Page2 extends React.Component {
                 <div id="front3"></div>
               </div>
 
-              <div
-                id="lol"
-                className="slider"
-                onMouseMove={moveSliderPointerHelper}
-              >
+              <div className="slider" onMouseMove={moveSliderPointerHelper}>
                 <div id="slider2">
                   <BsLifePreserver />
                 </div>
