@@ -69,7 +69,6 @@
   }
   .navBar {
     font-size: 10px;
-    /* padding: 0 15px; */
     margin-right: -18px;
     position: relative;
     left: -10px;
@@ -149,9 +148,6 @@
     background-color: rgb(78, 83, 119);
     text-align: left !important;
   }
-  #lol {
-    top: 0px;
-  }
 
   div .sliderOption {
     width: 40%;
@@ -208,14 +204,11 @@
     font-size: 10px;
   }
   #page3 {
+    width: 100% !important;
     display: flex;
     margin: 10px 0;
-    margin-left: 30px;
-    border: 3px solid rgb(78, 83, 119);
-    border-radius: 30px;
     position: relative;
-    width: 300px;
-    height: 100px;
+    width: 90%;
   }
 
   .page3_heading {
