@@ -1,17 +1,20 @@
 #main {
-  margin-top: 20px;
   font-size: 50px;
-  color: white;
+  position: absolute;
+  left: 150px;
 }
 
 #leftover {
-  top: 20px;
+  top: 200px;
   position: relative;
-  color: whitesmoke;
+  left: -200px;
 }
 
 #page1 {
-  margin-top: 12%;
+  margin-top: 17.5%;
+  position: relative;
+  margin-left: 25%;
+  color: white;
 }
 
 #rightslide {
