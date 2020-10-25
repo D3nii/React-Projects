@@ -6,8 +6,8 @@
     ),
     url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiICB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+CiAgIDxwYXRoIGZpbGw9IiM3NjcyOEIiIGQ9Ik0xMCw3TDgsMTFIMTFWMTdINVYxMUw3LDdIMTBNMTgsN0wxNiwxMUgxOVYxN0gxM1YxMUwxNSw3SDE4WiIgLz4KPC9zdmc+Cg==)
       no-repeat 50% 10%;
-  width: 358.333px;
-  height: 300px;
+  width: 25%;
+  height: 75px;
   margin: 50px 30px;
   display: inline-block;
   -webkit-transform: scale(1.1);
@@ -18,11 +18,8 @@
   box-sizing: inherit;
   cursor: pointer;
   box-shadow: 0 0 45px 0 #afa5a5, inset 0 0 0 0 transparent;
-}
-
-#Testimonial {
-  padding-top: 120px !important;
-  padding-bottom: 50px;
+  padding-bottom: 150px;
+  padding-top: 120px;
 }
 
 #Testimonial > h1 {
@@ -30,19 +27,17 @@
 }
 
 #TestimonialWriting {
-  padding: 00px 30px;
-  top: 50px;
+  padding: 0px 30px;
   font-style: italic;
   font-size: 18px;
-
   position: relative;
   color: rgb(78, 83, 119);
+  top: -40px;
 }
 
 #testimonialName {
   font-style: italic;
   color: rgb(78, 83, 119);
-  top: 75px;
   position: relative;
   display: grid;
   -webkit-box-pack: center;
