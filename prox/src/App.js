@@ -17,7 +17,7 @@ import "./Style/Media Queries/Mobile.css";
 
 function App() {
   return (
-    <div>
+    <>
       <div id="App">
         <NavBar />
 
@@ -50,9 +50,9 @@ function App() {
         </div>
 
         <Pipeline />
-        <Footer />
       </div>
-    </div>
+      <Footer />
+    </>
   );
 }
 
