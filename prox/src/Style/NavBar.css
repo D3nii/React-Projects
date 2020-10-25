@@ -2,9 +2,9 @@
   margin-right: 25%;
 }
 
-a {
+.navBar a {
   text-decoration: none;
-  color: #000;
+  color: black;
 }
 
 .navBar :hover {
@@ -13,13 +13,10 @@ a {
 }
 
 .navBar {
-  padding: 18px 15px;
-  height: 35px;
-  font-size: 21px;
-  color: white;
-  background-color: black;
-  position: relative;
-  margin: -5px 0px;
+  font-size: 17px;
+  margin-right: 0px;
+  padding: 0 15px;
+  padding-top: 10px;
 }
 
 .navButton {
@@ -28,16 +25,6 @@ a {
   background-color: white;
   border-radius: 15px;
   margin-bottom: 15px;
-}
-
-button .navButton :hover {
-  border: 0px;
-  margin-left: 6px;
-}
-
-div {
-  padding-top: 10px;
-  color: black;
 }
 
 #companyName {
