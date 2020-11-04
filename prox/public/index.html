@@ -1,58 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      charset="UTF-8"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
-    />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<html>
+<head>
+<title>Save Web Form Data to Spreadsheets - Contact Form</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script  src="https://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="  crossorigin="anonymous"></script>
+<script>
+function SubForm (){
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/2594/',
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          alert("Form Data Submitted :)")
+        },
+        error: function(){
+          alert("There was an error :(")
+        }
+    });
+}
+</script>
+</head>
+<body>
+  <form id="myForm">
+    <div align="center"> 
+      <h1 class="head">Form Submission</h1>
+    </div>
+    <br/>
+    <input name="full_name" class="formInputs" placeholder="name" onkeypress="handleChange()" id="name" />
+    <br/>
+    <br/>
+    <input name="email" class="formInputs" placeholder="email" id="mail" onkeypress="handleChange()" />
+    <br/>
+    <br/>
+    <input type="text" id="number" class="formInputs" name="number" placeholder="number" onkeypress="handleChange()" />
+    <br/>
+    <textarea name="Email2" rows="8" class="form2" id="Email2">Dear [Recipient Name],
+This is to inform you that today there is a water shortage in society, so the tomorrow water will be unavailable, Please take of that.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>Cheffanno AI</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+Feel free to contact on at our Society Office if you have any issue.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+
+Regards,
+Society Chairmen
+Ashok Vijay Housing Society,
+Pune, Maharashtra India.
+
+Disclaimer:
+This is not a promotional email and it is sent to [Recipient Email], registered mobile number [Recipient Mobile Number] if you have received this email by-mistaken in error, We request you to delete immediately or reply us and we will remove your details from our database.</textarea>
+<br/>
+    <input name="Number" type="text" class="form-small" id="Number" value="101" size="2">
+  </form>
+  <button onclick="SubForm()">Submit</button>
+</body>
+<script type="text/javascript" src="./script.js"></script>
 </html>
