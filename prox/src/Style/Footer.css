@@ -1,21 +1,20 @@
 #Footer {
   text-align: center;
-  margin-left: 10px;
+  margin-left: 2vh;
 }
 
 #col {
   display: flex;
+  padding-bottom: 5vh;
 }
-#call1 {
-  cursor: pointer;
-}
+
 #Links {
   color: black;
   margin-left: 10px;
 }
 
 #col1 {
-  margin-left: 60px;
+  margin-left: 10vh;
 }
 
 #col2 {
@@ -47,4 +46,5 @@ a:hover {
   color: black;
   display: block;
   margin: 15px 0;
+  cursor: pointer;
 }
