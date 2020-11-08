@@ -11,6 +11,7 @@ import Testionials from "./Components/Testimonials";
 import Pipeline from "./Components/Pipeline";
 import Footer from "./Components/Footer";
 
+import "./Style/Media Queries/Laptop.css";
 import "./Style/Media Queries/Ipad.css";
 import "./Style/Media Queries/Mobile.css";
 
