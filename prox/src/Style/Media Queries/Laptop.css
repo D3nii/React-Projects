@@ -1,0 +1,45 @@
+@media only screen and (min-width: 1224px) and (max-width: 1332px) {
+  /* Styles */
+  #Pipeline {
+    display: flex;
+    margin: 0px 0px;
+    margin-top: 0px;
+  }
+  .littleBody {
+    color: white;
+    top: 6px;
+    position: relative;
+    left: 3vw;
+    width: 32vw;
+    font-size: 1.2vw;
+    display: table-caption;
+  }
+  .littleHeading {
+    color: white;
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 1332px) and (max-width: 1580px) {
+  /* Styles */
+  #Pipeline {
+    display: flex;
+    margin: 0px 65px;
+    margin-top: 0px;
+  }
+  #footerMain {
+    position: relative;
+    left: 2vw;
+  }
+  .littleBody {
+    color: white;
+    top: 7px;
+    position: relative;
+    left: 55px;
+    width: 37vw;
+    font-size: 1.2vw;
+    display: table-caption;
+  }
+}
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
