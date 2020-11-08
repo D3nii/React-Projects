@@ -1,32 +1,341 @@
-@media only screen and (max-width: 812px) {
+@media only screen and (min-width: 340px) and (max-width: 480px) {
   #TestimonialWriting {
     padding: 0 30px;
     font-style: italic;
-    font-size: 13.4px;
-    bottom: 70px;
+    bottom: 0px;
+    margin-top: -10px;
     position: relative;
+  }
+  #App {
+    background-image: none;
   }
   .Media {
     margin-left: -20px;
   }
   #page2 {
     height: 1250px;
-    padding-top: 80px;
+    padding-top: 0px;
+    position: relative;
+    bottom: 215px;
   }
 
   #leftover {
-    top: 0px;
-    position: relative;
-    left: 0px;
+    color: black;
+    top: 16px;
+    left: -50px;
   }
   #main {
     position: relative;
-    left: 5px;
+    left: -50px;
     font-size: 25px;
+    color: black;
   }
   #Pipeline {
     display: grid;
     margin: -100px 50px;
+  }
+  #rightslide {
+    display: none;
+  }
+  #main2 {
+    font-size: 30px;
+    color: rgb(78, 83, 119);
+  }
+  .navBar {
+    font-size: 10px;
+    margin-right: -18px;
+    position: relative;
+    left: -30px;
+  }
+  .navButton {
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(78, 83, 119);
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+
+  #nav_button {
+    background-color: rgb(78, 83, 119);
+    position: relative;
+    top: 325px;
+  }
+  #companyName {
+    font-family: "Righteous", cursive;
+    font-size: 18px;
+    position: relative;
+    left: 34px;
+  }
+  #services {
+    top: 100px;
+    position: relative;
+    right: 121px;
+  }
+  #services div {
+    position: relative;
+    left: 200px;
+    width: 82%;
+    height: 160px;
+  }
+  div .sliderOption {
+    width: 70%;
+    height: 20%;
+  }
+  div .sliderOption {
+    /* top: 350px; */
+    position: relative;
+    background-color: rgb(78, 83, 119);
+    text-align: left !important;
+  }
+
+  div .sliderOption {
+    width: 40%;
+    height: 40%;
+  }
+
+  .littleHeading {
+    font-size: 22px;
+  }
+
+  .littleBody {
+    width: 70vw;
+    left: 35px;
+  }
+
+  #App {
+    position: relative;
+    top: 0px;
+  }
+  #slider {
+    display: none;
+  }
+  #Footer {
+    text-align: center;
+    /* margin-left: 10px; */
+  }
+  #col1 {
+    margin-left: 0px;
+  }
+  #main3 {
+    font-size: 16px;
+    max-height: 10px;
+    margin: 0px;
+    position: relative;
+    bottom: 40px;
+    left: 176px;
+  }
+  #page3_cards {
+    /* display: flex; */
+    margin: 5px auto;
+    border: 3px solid rgb(78, 83, 119);
+    border-radius: 5px;
+    position: relative;
+    right: 3vh;
+    height: 28vh;
+    width: 83vw;
+  }
+  .page3_heading {
+    margin: 10px auto;
+    font-size: 20px;
+  }
+
+  #page3_body {
+    width: 38vw;
+    font-size: 18px;
+  }
+
+  #page3_body {
+    width: 80%;
+    left: 30px;
+    top: 30px;
+    position: absolute;
+    font-size: 15px;
+  }
+  #page3 {
+    display: flex;
+    margin: 10px 0;
+    position: relative;
+    width: 90%;
+  }
+
+  .Bar,
+  .SubBar {
+    padding: 3px 10px;
+    font-size: 15px;
+    display: inline-block;
+  }
+  #slideShowImage {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    left: 20px;
+  }
+  /* #scroll {
+    position: relative;
+    right: 50px;
+    max-width: 100%;
+    overflow: none !important ;
+    overflow-x: none !important;
+  } */
+
+  #scroll {
+    overflow: initial;
+  }
+
+  #down_arrow {
+    width: 350px;
+    position: relative;
+    bottom: 360px;
+    z-index: -1;
+    left: 285px;
+    display: none;
+  }
+
+  #icons {
+    margin-right: 12px;
+    position: relative;
+    top: 5px;
+  }
+  #baaar {
+    font-size: 100px;
+    top: -120px;
+    position: relative;
+    color: rgb(78, 83, 119);
+    width: 75px;
+    margin: 0 auto;
+  }
+  #invertedComma {
+    font-style: italic;
+    font-family: Raanana;
+    font-size: 100px;
+    color: rgb(78, 83, 119);
+    bottom: 20px;
+    position: relative;
+    right: 10px;
+  }
+  #testimonial {
+    background-color: white;
+    width: 75vw;
+    margin: 40px 20px;
+    box-shadow: 0px 0px 20px -6px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    border: 2px solid rgb(78, 83, 119);
+    height: 10vh;
+  }
+  #testimonialName {
+    font-style: italic;
+    color: rgb(78, 83, 119);
+    bottom: 33px;
+    position: relative;
+    padding-bottom: 2;
+  }
+
+  #PipelineWrapper {
+    height: 160vh;
+    background-color: rgb(78, 83, 119);
+  }
+  #PipelineMain {
+    font-size: 40px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+  #PipelineHeading {
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(78, 83, 119);
+    margin-top: 0%;
+  }
+  #PipelineBody {
+    width: 60vw;
+    height: 60vh;
+    margin: 0 auto;
+    color: rgb(78, 83, 119);
+    margin-top: 2px;
+  }
+  #PipelineCard0,
+  #PipelineCard1,
+  #PipelineCard2,
+  #PipelineCard3,
+  #PipelineCard4,
+  #PipelineCard5 {
+    display: inline-block;
+    margin: 10px auto;
+    height: 18vh;
+    border-radius: 20px;
+    padding: 10px 10px;
+    transition: 1.5s;
+    width: 70vw;
+    background-color: white;
+    opacity: 0.1;
+  }
+  #col1 > a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 20px;
+    /* margin: 15px 0; */
+  }
+  #col1 > h2 {
+    font-size: 24px;
+  }
+  .Not_mobile {
+    display: none;
+  }
+  #Links {
+    color: rgb(78, 83, 119);
+    font-size: 23px;
+    margin-left: 10px;
+  }
+  #col {
+    display: grid;
+  }
+  #footerMain > p {
+    left: 6vw;
+    width: 85vw;
+    font-size: 19px;
+    position: relative;
+  }
+  #footerMain > span {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 340px) {
+  #TestimonialWriting {
+    padding: 0 30px;
+    font-style: italic;
+    bottom: 0px;
+    margin-top: -22px;
+    position: relative;
+  }
+  #App {
+    background-image: none;
+  }
+  .Media {
+    margin-left: -20px;
+  }
+  #page2 {
+    height: 1250px;
+    padding-top: 0px;
+    position: relative;
+    bottom: 215px;
+  }
+
+  #leftover {
+    color: black;
+    top: 16px;
+    left: -50px;
+  }
+  #main {
+    position: relative;
+    left: -50px;
+    font-size: 25px;
+    color: black;
+  }
+  #Pipeline {
+    display: grid;
+    margin: -100px 38px;
   }
   #rightslide {
     display: none;
@@ -71,7 +380,7 @@
     font-size: 10px;
     margin-right: -18px;
     position: relative;
-    left: -10px;
+    left: -30px;
   }
   .navButton {
     border: 2px solid white;
@@ -88,45 +397,10 @@
   }
   #companyName {
     font-family: "Righteous", cursive;
-    font-size: 24px;
+    font-size: 18px;
     position: relative;
     left: 34px;
   }
-  #front2 {
-    position: relative;
-    top: 170px;
-    z-index: -1;
-    background-size: 200px;
-    background-image: url("https://drive.google.com/file/d/1YOcoYwlhMmu3Dy1yTZc28PU1p9b7GpTO/view?usp=sharing");
-    background-repeat: no-repeat;
-    width: 35pc;
-    height: 35pc;
-  }
-  #back3 {
-    z-index: 1;
-    background-repeat: no-repeat;
-    background-size: 200px;
-    width: 35pc;
-    height: 35pc;
-    top: 200px;
-
-    position: absolute;
-    background-image: url("https://drive.google.com/file/d/1NR5pPcnAC3BlFko40wi2UImneb7tje6S/view?usp=sharing");
-  }
-
-  #front3 {
-    top: 170px;
-
-    z-index: 0;
-    background-size: 200px;
-    background-repeat: no-repeat;
-    background-image: url("https://drive.google.com/file/d/1roN_6R0Y1t2pEdDeYbImVVb1pLs04ar3/view?usp=sharing");
-    width: 35pc;
-    height: 35pc;
-    position: relative;
-    bottom: 580px;
-  }
-
   #services {
     top: 100px;
     position: relative;
@@ -134,7 +408,7 @@
   }
   #services div {
     position: relative;
-    left: 200px;
+    left: 192px;
     width: 82%;
     height: 160px;
   }
@@ -155,11 +429,12 @@
   }
 
   .littleHeading {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .littleBody {
-    width: 270px;
+    width: 70vw;
+    left: 35px;
   }
 
   #App {
@@ -170,30 +445,31 @@
     display: none;
   }
   #main3 {
-    font-size: 30px;
-    margin-bottom: 100px;
+    font-size: 16px;
+    max-height: 10px;
+    margin: 0px;
+    position: relative;
+    bottom: 40px;
+    left: 176px;
   }
-
   #page3_cards {
-    display: flex;
-    margin: 10px 70px;
+    /* display: flex; */
+    margin: 5px auto;
     border: 3px solid rgb(78, 83, 119);
     border-radius: 5px;
     position: relative;
-    height: 150px;
+    right: 2.5vh;
+    height: 45vh;
+    width: 83vw;
   }
-
   .page3_heading {
-    margin: 5px auto;
+    margin: 10px auto;
     font-size: 20px;
   }
 
   #page3_body {
-    width: 75%;
-    left: 30px;
-    top: 50px;
-    position: absolute;
-    font-size: 10px;
+    width: 38vw;
+    font-size: 18px;
   }
 
   #page3_body {
@@ -201,7 +477,7 @@
     left: 30px;
     top: 34px;
     position: absolute;
-    font-size: 10px;
+    font-size: 18px;
   }
   #page3 {
     width: 100% !important;
@@ -209,11 +485,6 @@
     margin: 10px 0;
     position: relative;
     width: 90%;
-  }
-
-  .page3_heading {
-    margin: -5px auto;
-    font-size: 20px;
   }
 
   .Bar,
@@ -228,13 +499,6 @@
     height: 90%;
     left: 20px;
   }
-  /* #scroll {
-    position: relative;
-    right: 50px;
-    max-width: 100%;
-    overflow: none !important ;
-    overflow-x: none !important;
-  } */
 
   #scroll {
     overflow: initial;
@@ -248,12 +512,11 @@
     left: 285px;
     display: none;
   }
-  #testimonialName {
-    font-style: italic;
-    color: rgb(78, 83, 119);
-    bottom: 165px;
+
+  #icons {
+    margin-right: 12px;
     position: relative;
-    padding-bottom: 2;
+    top: 5px;
   }
   #baaar {
     font-size: 100px;
@@ -274,16 +537,23 @@
   }
   #testimonial {
     background-color: white;
-    width: 70%;
+    width: 75vw;
     margin: 40px 20px;
     box-shadow: 0px 0px 20px -6px rgba(0, 0, 0, 0.5);
     display: inline-block;
     border: 2px solid rgb(78, 83, 119);
-    height: 300px;
+    height: 16vh;
+  }
+  #testimonialName {
+    font-style: italic;
+    color: rgb(78, 83, 119);
+    bottom: 35px;
+    position: relative;
+    padding-bottom: 2;
   }
 
   #PipelineWrapper {
-    height: 1880px;
+    height: 160vh;
     background-color: rgb(78, 83, 119);
   }
   #PipelineMain {
@@ -292,7 +562,27 @@
     padding-top: 30px;
     padding-bottom: 70px;
   }
+  #PipelineHeading {
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(78, 83, 119);
+    margin-top: 0%;
+  }
+  #PipelineBody {
+    width: 67vw;
+    height: 60vh;
+    margin: 0 auto;
+    color: rgb(78, 83, 119);
+    margin-top: 3px;
+    font-size: 15px;
+  }
+  .Not_mobile {
+    display: none;
+  }
 
+  #col {
+    display: grid;
+  }
   #PipelineCard0,
   #PipelineCard1,
   #PipelineCard2,
@@ -300,14 +590,684 @@
   #PipelineCard4,
   #PipelineCard5 {
     display: inline-block;
-    margin: 10px 10px;
-    height: 250px;
+    margin: 10px auto;
+    height: 17vh;
     border-radius: 20px;
     padding: 10px 10px;
     transition: 1.5s;
-    width: 200px;
+    width: 70vw;
     background-color: white;
     opacity: 0.1;
+  }
+
+  #Footer {
+    text-align: center;
+    /* margin-left: 10px; */
+  }
+  #col1 {
+    margin-left: 0px;
+  }
+  #col1 > a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 20px;
+    /* margin: 15px 0; */
+  }
+  #col1 > h2 {
+    font-size: 24px;
+  }
+  #footerMain > p {
+    left: 1vw;
+    width: 94vw;
+    font-size: 19px;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 150px) and (max-width: 280px) {
+  #TestimonialWriting {
+    padding: 0 6px;
+    font-style: italic;
+    bottom: 0px;
+    margin-top: -25px;
+    font-size: 7vw;
+    position: relative;
+  }
+  #App {
+    background-image: none;
+  }
+  .Media {
+    margin-left: -20px;
+  }
+  #page2 {
+    height: 1250px;
+    padding-top: 0px;
+    position: relative;
+    bottom: 215px;
+  }
+
+  #leftover {
+    color: black;
+    top: 16px;
+    left: -50px;
+  }
+  #main {
+    position: relative;
+    left: -50px;
+    font-size: 25px;
+    color: black;
+  }
+  #Pipeline {
+    display: grid;
+    margin: -100px 30px;
+  }
+  #rightslide {
+    display: none;
+  }
+  #main2 {
+    font-size: 30px;
+    color: rgb(78, 83, 119);
+  }
+  #back1 {
+    z-index: 1;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 200px;
+    background-image: url("https://drive.google.com/file/d/1ZsK36teedDcqsBcp4yRcZqzVK9AvRFlr/view");
+    width: 35pc;
+    height: 35pc;
+    top: 200px;
+  }
+
+  #front1 {
+    position: relative;
+    top: 170px;
+    z-index: -1;
+    background-size: 200px;
+    background-image: url("https://drive.google.com/file/d/1QaHcKynnfzEl6f1AGl7deQ_qi2elpqwE/view?usp=sharing");
+    background-repeat: no-repeat;
+    width: 35pc;
+    height: 35pc;
+  }
+
+  #back2 {
+    z-index: 1;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 200px;
+    background-image: url("https://drive.google.com/file/d/1rcMXyTjpNdlkt0D84mXKsaXUptobkQ4G/view?usp=sharing");
+    width: 35pc;
+    height: 35pc;
+    top: 200px;
+  }
+  .navBar {
+    font-size: 10px;
+    margin-right: -18px;
+    position: relative;
+    left: -30px;
+  }
+  .navButton {
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(78, 83, 119);
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+
+  #nav_button {
+    background-color: rgb(78, 83, 119);
+    position: relative;
+    top: 325px;
+  }
+  #companyName {
+    font-family: "Righteous", cursive;
+    font-size: 18px;
+    position: relative;
+    left: 34px;
+  }
+  #services {
+    top: 100px;
+    position: relative;
+    right: 121px;
+  }
+  #services div {
+    position: relative;
+    left: 185px;
+    width: 82%;
+    height: 151px;
+  }
+  div .sliderOption {
+    width: 70%;
+    height: 20%;
+  }
+  div .sliderOption {
+    /* top: 350px; */
+    position: relative;
+    background-color: rgb(78, 83, 119);
+    text-align: left !important;
+  }
+
+  div .sliderOption {
+    width: 40%;
+    height: 40%;
+  }
+
+  .littleHeading {
+    font-size: 22px;
+  }
+
+  .littleBody {
+    width: 70vw;
+    left: 35px;
+  }
+
+  #App {
+    position: relative;
+    top: 0px;
+  }
+  #slider {
+    display: none;
+  }
+  #main3 {
+    font-size: 16px;
+    max-height: 10px;
+    margin: 0px;
+    position: relative;
+    bottom: 40px;
+    left: 176px;
+  }
+  #page3_cards {
+    /* display: flex; */
+    margin: 5px auto;
+    border: 3px solid rgb(78, 83, 119);
+    border-radius: 5px;
+    position: relative;
+    right: 4.9vh;
+    height: 45vh;
+    width: 83vw;
+  }
+  .page3_heading {
+    margin: 10px auto;
+    font-size: 17px;
+  }
+
+  #page3_body {
+    width: 38vw;
+    font-size: 18px;
+  }
+
+  #page3_body {
+    width: 68vw;
+    left: 15px;
+    top: 38px;
+    position: absolute;
+    font-size: 12px;
+  }
+  #page3 {
+    width: 100% !important;
+    display: flex;
+    margin: 10px 0;
+    position: relative;
+    width: 90%;
+  }
+
+  .Bar,
+  .SubBar {
+    padding: 3px 10px;
+    font-size: 15px;
+    display: inline-block;
+  }
+  #slideShowImage {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    left: 20px;
+  }
+
+  #scroll {
+    overflow: initial;
+  }
+
+  #down_arrow {
+    width: 350px;
+    position: relative;
+    bottom: 360px;
+    z-index: -1;
+    left: 285px;
+    display: none;
+  }
+
+  #icons {
+    margin-right: 12px;
+    position: relative;
+    top: 5px;
+  }
+  #baaar {
+    font-size: 100px;
+    top: -120px;
+    position: relative;
+    color: rgb(78, 83, 119);
+    width: 75px;
+    margin: 0 auto;
+  }
+  #invertedComma {
+    font-style: italic;
+    font-family: Raanana;
+    font-size: 100px;
+    color: rgb(78, 83, 119);
+    bottom: 20px;
+    position: relative;
+    right: 10px;
+  }
+  #testimonial {
+    background-color: white;
+    width: 75vw;
+    margin: 40px 20px;
+    box-shadow: 0px 0px 20px -6px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    border: 2px solid rgb(78, 83, 119);
+    height: 13vh;
+  }
+  #testimonialName {
+    font-style: italic;
+    color: #4e5377;
+    bottom: 35px;
+    font-size: 6vw;
+    position: relative;
+    padding-bottom: 2;
+  }
+  #PipelineWrapper {
+    height: 160vh;
+    background-color: rgb(78, 83, 119);
+  }
+  #PipelineMain {
+    font-size: 40px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+  #PipelineHeading {
+    font-weight: bold;
+    font-size: 21px;
+    color: rgb(78, 83, 119);
+    margin-top: -5%;
+  }
+  #PipelineBody {
+    width: 70vw;
+    margin: 0 auto;
+    color: rgb(78, 83, 119);
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  .Not_mobile {
+    display: none;
+  }
+
+  #col {
+    display: grid;
+  }
+  #PipelineCard0,
+  #PipelineCard1,
+  #PipelineCard2,
+  #PipelineCard3,
+  #PipelineCard4,
+  #PipelineCard5 {
+    display: inline-block;
+    margin: 10px auto;
+    height: 17vh;
+    border-radius: 20px;
+    padding: 10px 10px;
+    transition: 1.5s;
+    width: 70vw;
+    background-color: white;
+    opacity: 0.1;
+  }
+
+  #Footer {
+    text-align: center;
+    /* margin-left: 10px; */
+  }
+  #col1 {
+    margin-left: 0px;
+  }
+  #col1 > a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 20px;
+    /* margin: 15px 0; */
+  }
+  #col1 > h2 {
+    font-size: 24px;
+  }
+  #footerMain > p {
+    left: 1vw;
+    width: 94vw;
+    font-size: 19px;
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 812px) {
+}
+
+@media only screen and (max-width: 150px) {
+  #TestimonialWriting {
+    padding: 0 6px;
+    font-style: italic;
+    bottom: 0px;
+    margin-top: -25px;
+    font-size: 7vw;
+    position: relative;
+  }
+  #App {
+    background-image: none;
+  }
+  .Media {
+    margin-left: -20px;
+  }
+  #page2 {
+    height: 1250px;
+    padding-top: 0px;
+    position: relative;
+    bottom: 215px;
+  }
+
+  #leftover {
+    color: black;
+    top: 16px;
+    left: -50px;
+  }
+  #main {
+    position: relative;
+    left: -50px;
+    font-size: 25px;
+    color: black;
+  }
+  #Pipeline {
+    display: grid;
+    margin: -100px 30px;
+  }
+  #rightslide {
+    display: none;
+  }
+  #main2 {
+    font-size: 30px;
+    color: rgb(78, 83, 119);
+  }
+  #back1 {
+    z-index: 1;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 200px;
+    background-image: url("https://drive.google.com/file/d/1ZsK36teedDcqsBcp4yRcZqzVK9AvRFlr/view");
+    width: 35pc;
+    height: 35pc;
+    top: 200px;
+  }
+
+  #front1 {
+    position: relative;
+    top: 170px;
+    z-index: -1;
+    background-size: 200px;
+    background-image: url("https://drive.google.com/file/d/1QaHcKynnfzEl6f1AGl7deQ_qi2elpqwE/view?usp=sharing");
+    background-repeat: no-repeat;
+    width: 35pc;
+    height: 35pc;
+  }
+
+  #back2 {
+    z-index: 1;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 200px;
+    background-image: url("https://drive.google.com/file/d/1rcMXyTjpNdlkt0D84mXKsaXUptobkQ4G/view?usp=sharing");
+    width: 35pc;
+    height: 35pc;
+    top: 200px;
+  }
+  .navBar {
+    font-size: 10px;
+    margin-right: -18px;
+    position: relative;
+    left: -30px;
+  }
+  .navButton {
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(78, 83, 119);
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+
+  #nav_button {
+    background-color: rgb(78, 83, 119);
+    position: relative;
+    top: 325px;
+  }
+  #companyName {
+    font-family: "Righteous", cursive;
+    font-size: 18px;
+    position: relative;
+    left: 34px;
+  }
+  #services {
+    top: 100px;
+    position: relative;
+    right: 121px;
+  }
+  #services div {
+    position: relative;
+    left: 192px;
+    width: 82%;
+    height: 160px;
+  }
+  div .sliderOption {
+    width: 70%;
+    height: 20%;
+  }
+  div .sliderOption {
+    /* top: 350px; */
+    position: relative;
+    background-color: rgb(78, 83, 119);
+    text-align: left !important;
+  }
+
+  div .sliderOption {
+    width: 40%;
+    height: 40%;
+  }
+
+  .littleHeading {
+    font-size: 22px;
+  }
+
+  .littleBody {
+    width: 70vw;
+    left: 35px;
+  }
+
+  #App {
+    position: relative;
+    top: 0px;
+  }
+  #slider {
+    display: none;
+  }
+  #main3 {
+    font-size: 16px;
+    max-height: 10px;
+    margin: 0px;
+    position: relative;
+    bottom: 40px;
+    left: 176px;
+  }
+  #page3_cards {
+    /* display: flex; */
+    margin: 5px auto;
+    border: 3px solid rgb(78, 83, 119);
+    border-radius: 5px;
+    position: relative;
+    right: 6.9vh;
+    height: 45vh;
+    width: 83vw;
+  }
+  .page3_heading {
+    margin: 10px auto;
+    font-size: 11px;
+  }
+
+  #page3_body {
+    width: 80%;
+    left: 9vw;
+    top: 34px;
+    position: absolute;
+    font-size: 11px;
+  }
+  #page3 {
+    width: 100% !important;
+    display: flex;
+    margin: 10px 0;
+    position: relative;
+    width: 90%;
+  }
+
+  .Bar,
+  .SubBar {
+    padding: 3px 10px;
+    font-size: 15px;
+    display: inline-block;
+  }
+  #slideShowImage {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    left: 20px;
+  }
+
+  #scroll {
+    overflow: initial;
+  }
+
+  #down_arrow {
+    width: 350px;
+    position: relative;
+    bottom: 360px;
+    z-index: -1;
+    left: 285px;
+    display: none;
+  }
+
+  #icons {
+    margin-right: 12px;
+    position: relative;
+    top: 5px;
+  }
+  #baaar {
+    font-size: 100px;
+    top: -120px;
+    position: relative;
+    color: rgb(78, 83, 119);
+    width: 75px;
+    margin: 0 auto;
+  }
+  #invertedComma {
+    font-style: italic;
+    font-family: Raanana;
+    font-size: 100px;
+    color: rgb(78, 83, 119);
+    bottom: 20px;
+    position: relative;
+    right: 10px;
+  }
+  #testimonial {
+    background-color: white;
+    width: 75vw;
+    margin: 40px 20px;
+    box-shadow: 0px 0px 20px -6px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    border: 2px solid rgb(78, 83, 119);
+    height: 13vh;
+  }
+  #testimonialName {
+    font-style: italic;
+    color: #4e5377;
+    bottom: 35px;
+    font-size: 6vw;
+    position: relative;
+    padding-bottom: 2;
+  }
+  #PipelineWrapper {
+    height: 160vh;
+    background-color: rgb(78, 83, 119);
+  }
+  #PipelineMain {
+    font-size: 40px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+  #PipelineHeading {
+    font-weight: bold;
+    font-size: 21px;
+    color: rgb(78, 83, 119);
+    margin-top: -5%;
+  }
+  #PipelineBody {
+    width: 70vw;
+    margin: 0 auto;
+    color: rgb(78, 83, 119);
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  .Not_mobile {
+    display: none;
+  }
+
+  #col {
+    display: grid;
+  }
+  #PipelineCard0,
+  #PipelineCard1,
+  #PipelineCard2,
+  #PipelineCard3,
+  #PipelineCard4,
+  #PipelineCard5 {
+    display: inline-block;
+    margin: 10px auto;
+    height: 17vh;
+    border-radius: 20px;
+    padding: 10px 10px;
+    transition: 1.5s;
+    width: 70vw;
+    background-color: white;
+    opacity: 0.1;
+  }
+
+  #Footer {
+    text-align: center;
+    /* margin-left: 10px; */
+  }
+  #col1 {
+    margin-left: 0px;
+  }
+  #col1 > a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 20px;
+    /* margin: 15px 0; */
+  }
+  #col1 > h2 {
+    font-size: 24px;
+  }
+  #footerMain > p {
+    left: 1vw;
+    width: 94vw;
+    font-size: 19px;
+    position: relative;
   }
 }
 
