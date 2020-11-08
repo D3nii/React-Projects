@@ -29,11 +29,11 @@
 }
 
 #PipelineBody {
-  width: 164px;
+  width: 90%;
   height: 200px;
   margin: 0 auto;
   color: rgb(78, 83, 119);
-  margin-top: 25px;
+  margin-top: 7px;
 }
 
 #PipelineWrapper {
