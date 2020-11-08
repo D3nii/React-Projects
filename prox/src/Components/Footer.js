@@ -41,7 +41,7 @@ class Footer extends React.Component {
             </a>
           </div>
 
-          <div id="col1">
+          <div id="col1" className="Not_mobile">
             <h2>Solutions</h2>
             <a href="#main2">Lines</a>
             <a href="#main2">Bounding Boxes</a>
@@ -51,7 +51,7 @@ class Footer extends React.Component {
             <a href="#main2">Tracking</a>
           </div>
 
-          <div id="col1">
+          <div id="col1" className="Not_mobile">
             <h2>Core Values</h2>
             <a href="#main3">Quality</a>
             <a href="#main3">Security & Privacy</a>
@@ -72,11 +72,12 @@ class Footer extends React.Component {
 
           <div id="col1">
             <h2>Legals</h2>
-            <span id="call1">
+            <a>
               <Pop head="Terms of Services" />
-
+            </a>
+            <a>
               <Policy head1="Privacy Policy" />
-            </span>
+            </a>
           </div>
         </div>
       </div>
