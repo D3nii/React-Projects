@@ -5,6 +5,7 @@
 .navBar a {
   text-decoration: none;
   color: black;
+  margin-left: 1.5em;
 }
 
 .navBar :hover {
@@ -15,8 +16,10 @@
 .navBar {
   font-size: 17px;
   margin-right: 0px;
-  padding: 0 15px;
-  padding-top: 10px;
+  padding: 0 1.5em;
+  padding-top: 1em;
+  background-color: #ececec;
+  height: 0px;
 }
 
 .navButton {
@@ -24,7 +27,7 @@
   color: rgb(78, 83, 119);
   background-color: white;
   border-radius: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 1em;
 }
 
 #companyName {
