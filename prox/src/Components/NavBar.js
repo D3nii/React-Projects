@@ -9,19 +9,16 @@ class NavBar extends React.Component {
   render() {
     return (
       <div className="navBar">
-        <span id="companyName" className="navBar">
+        <span id="companyName">
           Masti keriyan?
         </span>
-        <a href="#main2" className="navBar">
+        <a href="#main2">
           Annotation
         </a>
-        <a href="#Testimonial" className="navBar">
+        <a href="#Testimonial">
           Testimonials
         </a>
         <span className="navBar">About us</span>
-        {/*<div id="nav_button">
-          <button className="navButton">Request a demo</button>
-        </div>*/}
       </div>
     );
   }
