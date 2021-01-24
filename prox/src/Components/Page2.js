@@ -41,8 +41,11 @@ const moveSliderPointerHelper = (e) => {
 const first = () => {
   l = "back1";
   document.getElementById("img1").style.display = "block";
-  document.getElementById("img3").style.display = "none";
   document.getElementById("img2").style.display = "none";
+  document.getElementById("img3").style.display = "none";
+  document.getElementById("img4").style.display = "none";
+  document.getElementById("img5").style.display = "none";
+  document.getElementById("img6").style.display = "none";
 };
 
 const second = () => {
@@ -50,6 +53,9 @@ const second = () => {
   document.getElementById("img1").style.display = "none";
   document.getElementById("img2").style.display = "block";
   document.getElementById("img3").style.display = "none";
+  document.getElementById("img4").style.display = "none";
+  document.getElementById("img5").style.display = "none";
+  document.getElementById("img6").style.display = "none";
 };
 
 const third = () => {
@@ -57,6 +63,38 @@ const third = () => {
   document.getElementById("img1").style.display = "none";
   document.getElementById("img2").style.display = "none";
   document.getElementById("img3").style.display = "block";
+  document.getElementById("img4").style.display = "none";
+  document.getElementById("img5").style.display = "none";
+  document.getElementById("img6").style.display = "none";
+};
+
+const fourth = () => {
+  l = "back4";
+  document.getElementById("img1").style.display = "none";
+  document.getElementById("img2").style.display = "none";
+  document.getElementById("img3").style.display = "none";
+  document.getElementById("img4").style.display = "block";
+  document.getElementById("img5").style.display = "none";
+  document.getElementById("img6").style.display = "none";
+};
+const fifth = () => {
+  l = "back5";
+  document.getElementById("img1").style.display = "none";
+  document.getElementById("img2").style.display = "none";
+  document.getElementById("img3").style.display = "none";
+  document.getElementById("img4").style.display = "none";
+  document.getElementById("img5").style.display = "block";
+  document.getElementById("img6").style.display = "none";
+};
+
+const sixth = () => {
+  l = "back6";
+  document.getElementById("img1").style.display = "none";
+  document.getElementById("img2").style.display = "none";
+  document.getElementById("img3").style.display = "none";
+  document.getElementById("img4").style.display = "none";
+  document.getElementById("img5").style.display = "none";
+  document.getElementById("img6").style.display = "block";
 };
 
 class Page2 extends React.Component {
@@ -84,6 +122,21 @@ class Page2 extends React.Component {
               <div id="img3">
                 <div id="back3"></div>
                 <div id="front3"></div>
+              </div>
+
+              <div id="img4">
+                <div id="back4"></div>
+                <div id="front4"></div>
+              </div>
+
+              <div id="img5">
+                <div id="back5"></div>
+                <div id="front5"></div>
+              </div>
+
+              <div id="img6">
+                <div id="back6"></div>
+                <div id="front6"></div>
               </div>
 
               <div className="slider" onMouseMove={moveSliderPointerHelper}>
@@ -134,7 +187,7 @@ class Page2 extends React.Component {
               </span>
             </div>
 
-            <div className="sliderOption" onClick={third}>
+            <div className="sliderOption" onClick={fourth}>
               <span className="littleHeading">
                 <BiShapePolygon id="icons" />
                 Polygons
@@ -145,7 +198,7 @@ class Page2 extends React.Component {
               </span>
             </div>
 
-            <div className="sliderOption" onClick={second}>
+            <div className="sliderOption" onClick={fifth}>
               <span className="littleHeading">
                 <GiThreePointedShuriken id="icons" />
                 Points
@@ -157,7 +210,7 @@ class Page2 extends React.Component {
               </span>
             </div>
 
-            <div className="sliderOption" onClick={first}>
+            <div className="sliderOption" onClick={sixth}>
               <span className="littleHeading">
                 <AiOutlineFall id="icons" />
                 Lines
